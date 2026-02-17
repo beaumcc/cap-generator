@@ -8,7 +8,7 @@
 # Player record (216 bytes):
 #   [0:8]    team id (ASCII, space padded)
 #   [8]      0x00
-#   [9:21]   player name (12 bytes) -> EXACTLY player@name, capitalization preserved
+#   [9:21]   player name (12 bytes) -> First initial + last name (e.g., "T. Bissetta")
 #   [21]     0x00
 #   [22]     0x20
 #   [23]     type flag (3 hitter, 1 pitcher)
@@ -31,13 +31,10 @@ HEADER_TAIL = bytes.fromhex(
     "1900d800030000000000000000000000020000000000020000000000000000000000000020202020"
     "20202020004f70706f6e656e7473202020007800030003005c000600160004000600000002000600"
     "0000020000000100020000002300090002000200000000000200030016000e000100420018000400"
-    "01000400000000000500000003000300030000000000000079005e00000003000300030003000000"
-    "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    "00000000000000000000000000000000000000000000000000000000000000000000000000000000"
-    "000000000000000000000000000000000000"
+    "01000400000000000500000003000300030000000000000079005e0000000300000042001f001d00"
+    "1c0016001600080003000000050000030700000005001500130000000000000000001b0005002800"
+    "05001a00010027000800080002002d0010000900140019000b0001000000000016000a003a001500"
+    "3b001300010000001c000700"
 )
 assert len(HEADER_TAIL) == 252
 
@@ -142,16 +139,16 @@ def is_pitcher(p: ET.Element) -> bool:
 
 
 def short_name_12(p: ET.Element) -> str:
-    """
-    EXACT per your requirement:
-    - Always use player@name
-    - Preserve capitalization exactly as in XML
-    - Trim and truncate to 12 chars
-    """
-    v = (p.get("name") or "").strip()
-    if not v:
+    """Convert full name to abbreviated format: "Tristan Bissetta" -> "T. Bissetta"."""
+    name = (p.get("name") or "").strip()
+    if not name:
         raise RuntimeError("player missing required @name attribute")
-    return v[:12]
+    parts = name.split()
+    if len(parts) >= 2:
+        abbrev = f"{parts[0][0]}. {parts[-1]}"
+    else:
+        abbrev = name
+    return abbrev[:12]
 
 
 def stats_from_player_elem(p: ET.Element, pitcher: bool) -> list[int]:
@@ -265,10 +262,11 @@ def generate_cap(xml_path: Path) -> Path:
 
     header = build_header(team_name, team_id, cap_date)
 
-    players = root.findall(".//player")
+    players = [p for p in root.findall(".//player") if int(p.get("gp") or 0) > 0]
+    players.sort(key=lambda p: int(p.get("uni") or 999))
     recs = []
     for p in players:
-        nm = short_name_12(p)           # <-- updated: always player@name
+        nm = short_name_12(p)
         pit = is_pitcher(p)
         u16 = stats_from_player_elem(p, pit)
         recs.append(pack_player_record(team_id, nm, pit, u16))
