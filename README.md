@@ -8,6 +8,24 @@ Converts TAS Baseball/Softball season statistics XML files into binary `.CAP` fi
 
 No external dependencies required (uses only Python standard library).
 
+### Installing Python
+
+**Windows:**
+1. Download Python from [python.org/downloads](https://www.python.org/downloads/)
+2. Run the installer
+3. Check "Add Python to PATH" during installation
+4. Click "Install Now"
+
+**Mac:**
+1. Download Python from [python.org/downloads](https://www.python.org/downloads/)
+2. Run the installer package
+3. Follow the installation prompts
+
+Alternatively, install via Homebrew:
+```bash
+brew install python
+```
+
 ## Usage
 
 ### Run from command line
@@ -21,16 +39,6 @@ python cap_generator.py team1.xml team2.xml
 
 # Process all XML files in a directory
 python cap_generator.py /path/to/stats/
-```
-
-### Running directly on Mac/Linux
-
-```bash
-# Make the script executable (first time only)
-chmod +x cap_generator.py
-
-# Run directly
-./cap_generator.py
 ```
 
 ## Binary Format
