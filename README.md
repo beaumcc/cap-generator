@@ -28,6 +28,16 @@ Alternatively, install via Homebrew:
 brew install python
 ```
 
+## Preparing XML Files
+
+Before running the generator, ensure your XML files are properly configured:
+
+1. **Verify the Team ID** - Check that the `<team id="XXX">` attribute in the XML matches the team ID that TAS expects.
+
+2. **Rename the XML file** - The XML filename should match the team ID (e.g., `ASU.xml` for a team with `id="ASU"`). The generated CAP file will use the same name (e.g., `ASU.cap`).
+
+If the team ID is missing from the XML, the script will use the filename as the team ID.
+
 ## Usage
 
 ### Run from command line
