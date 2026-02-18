@@ -23,11 +23,6 @@ python cap_generator.py team1.xml team2.xml
 python cap_generator.py /path/to/stats/
 ```
 
-### Drag-and-drop (Windows/Mac)
-
-- **Windows:** Drag one or more `.xml` files (or folders containing XML files) onto `cap_generator.exe`.
-- **Mac:** Drag files onto the `.app` bundle (see "Creating a Mac .app Bundle" below).
-
 ### Running directly on Mac/Linux
 
 ```bash
@@ -37,58 +32,6 @@ chmod +x cap_generator.py
 # Run directly
 ./cap_generator.py
 ```
-
-## Creating Executables
-
-### Windows Executable (PyInstaller)
-
-1. Install PyInstaller:
-   ```bash
-   pip install pyinstaller
-   ```
-
-2. Build the executable:
-   ```bash
-   pyinstaller --onefile --name cap_generator cap_generator.py
-   ```
-
-3. The executable will be created in the `dist/` folder.
-
-### Mac Executable (PyInstaller)
-
-1. Install PyInstaller:
-   ```bash
-   pip install pyinstaller
-   ```
-
-2. Build the executable:
-   ```bash
-   pyinstaller --onefile --name cap_generator cap_generator.py
-   ```
-
-3. The executable will be created in the `dist/` folder.
-
-### Mac .app Bundle (py2app)
-
-Creates a native Mac application with drag-and-drop support:
-
-1. Install py2app:
-   ```bash
-   pip install py2app
-   ```
-
-2. Generate setup.py:
-   ```bash
-   py2applet --make-setup cap_generator.py
-   ```
-
-3. Build the .app bundle:
-   ```bash
-   python setup.py py2app
-   ```
-
-4. The `.app` bundle will be created in the `dist/` folder. You can drag XML files directly onto the app icon.
-
 
 ## Binary Format
 

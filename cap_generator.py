@@ -107,6 +107,14 @@ MAP_U16_OPPONENT = {
 PTYPE_HITTER = 3
 PTYPE_PITCHER = 1
 
+# Class year encoding for byte 22
+CLASS_BYTE = {
+    "FR": 0x08,  # Freshman
+    "SO": 0x10,  # Sophomore
+    "JR": 0x20,  # Junior
+    "SR": 0x40,  # Senior
+}
+
 
 def pad_ascii(s: str, n: int) -> bytes:
     b = (s or "").encode("ascii", errors="ignore")[:n]
@@ -394,15 +402,13 @@ def stats_from_player_elem(p: ET.Element, pitcher: bool) -> list[int]:
     hs = p.find("hsitsummary")
     pitching = p.find("pitching")
 
-    # gp/gs for all players (pitchers use appear for gp if gp attr absent)
-    if pitcher:
-        gp = int(p.get("gp") or _get_int(pitching, "appear") or 0)
-        gs = int(p.get("gs") or _get_int(pitching, "gs") or 0)
-    else:
+    # gp/gs: players with pitching appearances use appear[36] instead of gp/gs[0,1]
+    pitching_appear = _get_int(pitching, "appear")
+    if pitching_appear == 0:
         gp = int(p.get("gp") or 0)
         gs = int(p.get("gs") or 0)
-    _set_stat(u16, "gp", gp)
-    _set_stat(u16, "gs", gs)
+        _set_stat(u16, "gp", gp)
+        _set_stat(u16, "gs", gs)
 
     # hitting
     _set_stat(u16, "ab", _get_int(hitting, "ab"))
@@ -495,17 +501,18 @@ def stats_from_player_elem(p: ET.Element, pitcher: bool) -> list[int]:
     return u16
 
 
-def pack_player_record(team_id: str, name: str, pitcher: bool, u16_stats: list[int], name_field_len: int = 12) -> bytes:
-    # Layout: team_id(8) + \x00 + name(12, space-padded) + \x00 + \x20 + type(1) + stats(192)
+def pack_player_record(team_id: str, name: str, pitcher: bool, u16_stats: list[int], player_class: str = "") -> bytes:
+    # Layout: team_id(8) + \x00 + name(12, space-padded) + \x00 + class(1) + type(1) + stats(192)
     name_bytes = name.encode("ascii", errors="ignore")[:12]
     name_padded = name_bytes + b" " * (12 - len(name_bytes))
+    class_byte = CLASS_BYTE.get(player_class.upper(), 0x20)
     rec = bytearray()
     rec += pad_ascii(team_id, 8)
     rec += b"\x00"
     rec += name_padded
     rec += b"\x00"
-    rec += b"\x20"
-    rec += bytes([0x02])  # type byte
+    rec += bytes([class_byte])
+    rec += bytes([PTYPE_PITCHER if pitcher else PTYPE_HITTER])
     rec += struct.pack(U16_STRUCT_FMT, *u16_stats)
     return bytes(rec)
 
@@ -540,7 +547,8 @@ def generate_cap(xml_path: Path) -> Path:
     for p, nm in zip(players, names):
         pit = is_pitcher(p)
         u16 = stats_from_player_elem(p, pit)
-        recs.append(pack_player_record(team_id, nm, pit, u16))
+        player_class = (p.get("class") or "").strip()
+        recs.append(pack_player_record(team_id, nm, pit, u16, player_class))
 
     out_path = xml_path.with_suffix(".cap")
     out_path.write_bytes(header + b"".join(recs))

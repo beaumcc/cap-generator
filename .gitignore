@@ -19,6 +19,9 @@ __pycache__/
 #ignore .claud files
 .claud
 
+# Ignore CLAUDE.md
+CLAUDE.md
+
 # Ignore all .env files
 .env
 
