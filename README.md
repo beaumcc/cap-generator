@@ -2,6 +2,8 @@
 
 Converts TAS Baseball/Softball season statistics XML files into binary `.CAP` files.
 
+> **Disclaimer:** This software was created with AI code generation assistance. No ownership rights are claimed and no rights are granted. Use at your own risk. See [LICENSE](LICENSE) for full terms.
+
 ## Requirements
 
 - Python 3.10 or later

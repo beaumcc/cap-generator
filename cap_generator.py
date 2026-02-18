@@ -2,6 +2,11 @@
 # cap_generator.py
 # Generate .CAP files from season stat XML files.
 #
+# DISCLAIMER: This code was generated with AI assistance (Claude).
+# This software is provided "as is" without warranty of any kind. The author(s)
+# claim no ownership rights and grant no rights to users. Use at your own risk.
+# See LICENSE for full terms.
+#
 # Drag-and-drop support (Windows/Mac):
 #   - Windows: Drag one or more .xml files (or folders) onto cap_generator.exe
 #   - Mac: Drag files onto the .app bundle (requires py2app packaging)
