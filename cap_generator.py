@@ -2,8 +2,9 @@
 # cap_generator.py
 # Generate .CAP files from season stat XML files.
 #
-# Drag-and-drop support (Windows):
-#   - Drag one or more .xml files (or folders) onto cap_generator.exe
+# Drag-and-drop support (Windows/Mac):
+#   - Windows: Drag one or more .xml files (or folders) onto cap_generator.exe
+#   - Mac: Drag files onto the .app bundle (requires py2app packaging)
 #   - Those paths arrive as argv; we process them instead of scanning CWD
 #
 # Progress display:
