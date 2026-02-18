@@ -197,3 +197,4 @@ Pair stats are parsed from XML format `"made,opp"`.
 | 91 | 206 | `vsleft` (made) | Vs Left - Made |
 | 94 | 212 | `w2outs` (opp) | With 2 Outs - Opportunities |
 | 95 | 214 | `w2outs` (made) | With 2 Outs - Made |
+

@@ -7,10 +7,6 @@
 # claim no ownership rights and grant no rights to users. Use at your own risk.
 # See LICENSE for full terms.
 #
-# Drag-and-drop support (Windows/Mac):
-#   - Windows: Drag one or more .xml files (or folders) onto cap_generator.exe
-#   - Mac: Drag files onto the .app bundle (requires py2app packaging)
-#   - Those paths arrive as argv; we process them instead of scanning CWD
 #
 # Progress display:
 #   - Prints [i/N] status for each XML processed
