@@ -1,9 +1,6 @@
 # Ignore reference folder at repository root
 /reference/
 
-#ignore claude.md
-CLAUDE.md
-
 # Ignore all .log files
 *.log
 
@@ -18,4 +15,10 @@ CLAUDE.md
 
 #ignore __pycache__ folders
 __pycache__/
+
+#ignore .claud files
+.claud
+
+# Ignore all .env files
+.env
 
