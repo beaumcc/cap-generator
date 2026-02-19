@@ -25,6 +25,7 @@
 
 import sys
 import struct
+from typing import NamedTuple, Callable
 from pathlib import Path
 import xml.etree.ElementTree as ET
 
@@ -80,9 +81,10 @@ MAP_U16_OPPONENT = {
     "h_sh": 26,  # sh duplicate in opponent record
     # pitching stats
     "p_appear": 36,
-    "p_win": 37,      # stores pitching.gs (games started)
+    "p_win": 37,      # stores pitching.gs (games started) / appear for opponent record
     "p_loss": 38,     # stores pitching.gf (games finished)
-    # idx39, idx40 always 0 in ref — not mapped
+    "p_cg": 39,       # stores pitching.cg (complete games)
+    "p_sho_raw": 40,  # stores pitching.sho (shutouts)
     "p_sho": 41,      # stores pitching.cbo (combined shutouts)
     "p_bf": 42,
     "p_ab": 43,
@@ -107,6 +109,8 @@ MAP_U16_OPPONENT = {
     "ps_ground": 61,
     "ps_fly": 62,
     "p_pickoff": 63,  # stores psitsummary.picked (pitcher pickoffs)
+    "p_sha": 65,      # sacrifice hits allowed
+    "p_sfa": 66,      # sacrifice flies allowed
     "ps_leadoff_opp": 86,
     "ps_leadoff_made": 87,
     "ps_wrunners_opp": 88,
@@ -130,6 +134,97 @@ CLASS_BYTE = {
     "R-FR.": 0x08, "R-SO.": 0x10, "R-JR.": 0x20, "R-SR.": 0x40,
     "GR": 0x40, "GR.": 0x40, "GRADUATE": 0x40, "GRAD": 0x40,
 }
+
+
+# ---------------------------------------------------------------------------
+# Format-specific dispatch
+# ---------------------------------------------------------------------------
+
+class FormatHandler(NamedTuple):
+    is_pitcher: Callable[[ET.Element], bool]
+    games_finished: Callable[[ET.Element], int]
+    opponent_appear: Callable[[ET.Element, ET.Element | None], int]
+    player_appeared: Callable[[ET.Element], bool]
+    player_class: Callable[[ET.Element], str]
+
+
+# -- pitcher detection --
+
+def _is_pitcher_tas(p: ET.Element) -> bool:
+    pos = (p.get("pos") or p.get("position") or "").strip().upper()
+    return pos in ("P", "RHP", "LHP")
+
+
+def _is_pitcher_presto(p: ET.Element) -> bool:
+    pitching = p.find("pitching")
+    return pitching is not None and int(pitching.get("appear") or 0) > 0
+
+
+# -- games finished --
+
+def _games_finished_tas(pitching: ET.Element) -> int:
+    return int(pitching.get("gf") or 0)
+
+
+def _games_finished_presto(pitching: ET.Element) -> int:
+    return max(0, int(pitching.get("appear") or 0) - int(pitching.get("gs") or 0))
+
+
+# -- opponent appear --
+
+def _opponent_appear_tas(pitching: ET.Element, totals: ET.Element | None) -> int:
+    return int(pitching.get("appear") or 0)
+
+
+def _opponent_appear_presto(pitching: ET.Element, totals: ET.Element | None) -> int:
+    return int(totals.get("gp") or 0) if totals is not None else 0
+
+
+# -- player appeared (filter for active roster) --
+
+def _player_appeared_tas(p: ET.Element) -> bool:
+    return int(p.get("gp") or 0) > 0
+
+
+def _player_appeared_presto(p: ET.Element) -> bool:
+    if int(p.get("gp") or 0) > 0:
+        return True
+    pit = p.find("pitching")
+    return pit is not None and int(pit.get("appear") or 0) > 0
+
+
+# -- player class/year --
+
+def _player_class_tas(p: ET.Element) -> str:
+    return (p.get("class") or "").strip()
+
+
+def _player_class_presto(p: ET.Element) -> str:
+    return (p.get("year") or "").strip()
+
+
+TAS_HANDLER = FormatHandler(
+    is_pitcher=_is_pitcher_tas,
+    games_finished=_games_finished_tas,
+    opponent_appear=_opponent_appear_tas,
+    player_appeared=_player_appeared_tas,
+    player_class=_player_class_tas,
+)
+
+PRESTO_HANDLER = FormatHandler(
+    is_pitcher=_is_pitcher_presto,
+    games_finished=_games_finished_presto,
+    opponent_appear=_opponent_appear_presto,
+    player_appeared=_player_appeared_presto,
+    player_class=_player_class_presto,
+)
+
+
+def detect_format(root: ET.Element) -> FormatHandler:
+    source = (root.get("source") or "").strip()
+    if "PrestoSports" in source:
+        return PRESTO_HANDLER
+    return TAS_HANDLER
 
 
 def pad_ascii(s: str, n: int) -> bytes:
@@ -218,7 +313,7 @@ def _set_pair(u16: list[int], hs: ET.Element, xml_key: str, made_key: str, opp_k
         u16[idx] = clamp_u16(opp)
 
 
-def stats_from_opponent_elem(opponent: ET.Element | None, totals: ET.Element | None) -> list[int]:
+def stats_from_opponent_elem(opponent: ET.Element | None, totals: ET.Element | None, fmt: FormatHandler) -> list[int]:
     """Extract stats from <opponent> element using MAP_U16 indices plus opponent-specific mappings."""
     u16 = [0] * U16_COUNT
 
@@ -254,6 +349,7 @@ def stats_from_opponent_elem(opponent: ET.Element | None, totals: ET.Element | N
     _set_stat(u16, "kl", _get_int(hitting, "kl"))
     _set_stat(u16, "gdp", _get_int(hitting, "gdp"))
     _set_stat(u16, "hitdp", _get_int(hitting, "hitdp"))
+    _set_stat(u16, "ibb", _get_int(hitting, "ibb"))
     _set_opp_stat(u16, "h_sh", _get_int(hitting, "sh"))  # sh at alternate index 26
 
     # fielding
@@ -288,13 +384,18 @@ def stats_from_opponent_elem(opponent: ET.Element | None, totals: ET.Element | N
 
     # pitching (opponent-specific indices)
     if pitching is not None:
-        _set_opp_stat(u16, "p_appear", _get_int(pitching, "appear"))
-        totals_pitching = totals.find("pitching") if totals is not None else None
-        _set_opp_stat(u16, "p_win", _get_int(totals_pitching, "win"))
+        appear = fmt.opponent_appear(pitching, totals)
+        _set_opp_stat(u16, "p_appear", appear)
+        _set_opp_stat(u16, "p_win", appear)   # appear stored at idx37 for opponent
         _set_opp_stat(u16, "p_loss", _get_int(pitching, "loss"))
+        _set_opp_stat(u16, "p_cg", _get_int(pitching, "cg"))
+        _set_opp_stat(u16, "p_sho_raw", _get_int(pitching, "sho"))
+        _set_opp_stat(u16, "p_sho", _get_int(pitching, "cbo"))
         _set_opp_stat(u16, "p_bf", _get_int(pitching, "bf"))
         _set_opp_stat(u16, "p_ab", _get_int(pitching, "ab"))
+        _set_opp_stat(u16, "p_2b", _get_int(pitching, "win"))       # actual wins at idx44
         _set_opp_stat(u16, "p_loss2", _get_int(pitching, "loss"))
+        _set_opp_stat(u16, "p_save", _get_int(pitching, "save"))
         _set_opp_stat(u16, "p_ip_outs", _parse_ip_to_outs(pitching.get("ip") or ""))
         _set_opp_stat(u16, "p_h", _get_int(pitching, "h"))
         _set_opp_stat(u16, "p_r", _get_int(pitching, "r"))
@@ -305,16 +406,22 @@ def stats_from_opponent_elem(opponent: ET.Element | None, totals: ET.Element | N
         _set_opp_stat(u16, "p_gdp", _get_int(pitching, "gdp"))
         _set_opp_stat(u16, "p_hbp", _get_int(pitching, "hbp"))
 
-        # wp is stored shifted left by 8 bits (in high byte of u16[57])
+        # wp stored at idx54 (plain) and idx57 (shifted left 8 bits / high byte)
         wp = _get_int(pitching, "wp")
+        _set_opp_stat(u16, "p_wp", wp)
         if wp and (idx := MAP_U16_OPPONENT.get("p_wp_shifted")) is not None:
             u16[idx] = clamp_u16(wp * 256)
 
+        _set_opp_stat(u16, "p_bk", _get_int(pitching, "bk"))
         _set_opp_stat(u16, "p_double", _get_int(pitching, "double"))
+        _set_opp_stat(u16, "p_triple", _get_int(pitching, "triple"))
         _set_opp_stat(u16, "p_hr", _get_int(pitching, "hr"))
+        _set_opp_stat(u16, "p_sha", _get_int(pitching, "sha"))
+        _set_opp_stat(u16, "p_sfa", _get_int(pitching, "sfa"))
 
     # psitsummary (opponent-specific indices)
     if ps is not None:
+        _set_opp_stat(u16, "p_pickoff", _get_int(ps, "picked"))
         _set_opp_stat(u16, "ps_ground", _get_int(ps, "ground"))
         _set_opp_stat(u16, "ps_fly", _get_int(ps, "fly"))
 
@@ -344,7 +451,9 @@ def build_header(
     player_count: int,
     totals: ET.Element | None,
     opponent: ET.Element | None,
+    team: ET.Element | None = None,
     rec_size: int = REC_SIZE,
+    fmt: FormatHandler = TAS_HANDLER,
 ) -> bytes:
     """
     Build 292-byte header including opponent pseudo-record.
@@ -353,7 +462,7 @@ def build_header(
       [0:20]   team name
       [21:29]  team id
       [30:38]  date MM/DD/YY
-      [40:76]  metadata (player count, record size, gp, fielding totals)
+      [40:76]  metadata (player count, record size, wins/losses, conf record, fielding/pitching totals)
       [76:100] opponent record header ("Opponents", type=0x78)
       [100:292] opponent stats (96 u16 values)
     """
@@ -367,12 +476,31 @@ def build_header(
     # Metadata [40:76]
     struct.pack_into("<H", h, 40, player_count)
     struct.pack_into("<H", h, 42, rec_size)
-    struct.pack_into("<H", h, 44, int(totals.get("gp") or 0) if totals is not None else 0)
+    struct.pack_into("<H", h, 44, int(totals.get("w") or 0) if totals is not None else 0)
+    struct.pack_into("<H", h, 46, int(totals.get("l") or 0) if totals is not None else 0)
+
+    # Conference record from team.confonly (e.g. "16-14-0")
+    if team is not None:
+        confonly = (team.get("confonly") or "").strip()
+        if confonly:
+            parts = confonly.split("-")
+            if len(parts) >= 2:
+                try:
+                    struct.pack_into("<H", h, 50, int(parts[0]))
+                    struct.pack_into("<H", h, 52, int(parts[1]))
+                except ValueError:
+                    pass
 
     totals_fielding = totals.find("fielding") if totals is not None else None
     if totals_fielding is not None:
         struct.pack_into("<H", h, 56, int(totals_fielding.get("indp") or 0))
+        struct.pack_into("<H", h, 60, int(totals_fielding.get("sba") or 0))
         struct.pack_into("<H", h, 62, int(totals_fielding.get("csb") or 0))
+
+    totals_pitching = totals.find("pitching") if totals is not None else None
+    if totals_pitching is not None:
+        struct.pack_into("<H", h, 64, int(totals_pitching.get("sho") or 0))
+        struct.pack_into("<H", h, 66, int(totals_pitching.get("cbo") or 0))
 
     # Opponent pseudo-record header [76:100]
     h[76:84] = b"        "  # empty team id
@@ -380,21 +508,10 @@ def build_header(
     h[98] = 0x78  # opponent type flag
 
     # Opponent stats [100:292]
-    opp_stats = stats_from_opponent_elem(opponent, totals)
+    opp_stats = stats_from_opponent_elem(opponent, totals, fmt)
     h[100:292] = struct.pack(U16_STRUCT_FMT, *opp_stats)
 
     return bytes(h)
-
-
-def is_pitcher(p: ET.Element) -> bool:
-    pos = (p.get("pos") or p.get("position") or "").strip().upper()
-    if pos:
-        return pos in ("P", "RHP", "LHP")
-    # No pos attribute: use pitching appearances as the indicator
-    pitching = p.find("pitching")
-    if pitching is not None and int(pitching.get("appear") or 0) > 0:
-        return True
-    return False
 
 
 def format_name(p: ET.Element) -> str:
@@ -432,7 +549,7 @@ def format_name(p: ET.Element) -> str:
     return f"{initial}.{last}"[:12]
 
 
-def stats_from_player_elem(p: ET.Element, pitcher: bool) -> list[int]:
+def stats_from_player_elem(p: ET.Element, pitcher: bool, fmt: FormatHandler) -> list[int]:
     u16 = [0] * U16_COUNT
 
     hitting = p.find("hitting")
@@ -500,7 +617,8 @@ def stats_from_player_elem(p: ET.Element, pitcher: bool) -> list[int]:
     if pitcher and pitching is not None:
         _set_opp_stat(u16, "p_appear", _get_int(pitching, "appear"))
         _set_opp_stat(u16, "p_win", _get_int(pitching, "gs"))    # gs not win
-        _set_opp_stat(u16, "p_loss", _get_int(pitching, "gf"))   # gf not loss
+        gf = fmt.games_finished(pitching)
+        _set_opp_stat(u16, "p_loss", gf)
         _set_opp_stat(u16, "p_sho", _get_int(pitching, "cbo"))   # cbo not sho
         _set_opp_stat(u16, "p_2b", _get_int(pitching, "win"))    # actual wins
         _set_opp_stat(u16, "p_save", _get_int(pitching, "save"))
@@ -524,6 +642,8 @@ def stats_from_player_elem(p: ET.Element, pitcher: bool) -> list[int]:
             u16[idx] = clamp_u16(wp * 256)
         _set_opp_stat(u16, "p_double", _get_int(pitching, "double"))
         _set_opp_stat(u16, "p_hr", _get_int(pitching, "hr"))
+        _set_opp_stat(u16, "p_sha", _get_int(pitching, "sha"))
+        _set_opp_stat(u16, "p_sfa", _get_int(pitching, "sfa"))
 
         ps = p.find("psitsummary")
         if ps is not None:
@@ -568,6 +688,7 @@ def pack_player_record(team_id: str, name: str, pitcher: bool, u16_stats: list[i
 
 def generate_cap(xml_path: Path) -> Path:
     root = ET.parse(xml_path).getroot()
+    fmt = detect_format(root)
 
     cap_date = mmddyy_from_xml_date(root.get("date") or "")
 
@@ -583,13 +704,7 @@ def generate_cap(xml_path: Path) -> Path:
     if not team_name:
         raise RuntimeError("XML team element missing required name attribute")
 
-    def appeared(p: ET.Element) -> bool:
-        if int(p.get("gp") or 0) > 0:
-            return True
-        pit = p.find("pitching")
-        return pit is not None and int(pit.get("appear") or 0) > 0
-
-    players = [p for p in root.findall(".//player") if appeared(p)]
+    players = [p for p in root.findall(".//player") if fmt.player_appeared(p)]
     players.sort(key=lambda p: int(p.get("uni") or 999))
 
     totals = root.find(".//totals")
@@ -597,14 +712,14 @@ def generate_cap(xml_path: Path) -> Path:
 
     recs = []
     names = [format_name(p) for p in players]
-    header = build_header(team_name, team_id, cap_date, len(players), totals, opponent, REC_SIZE)
+    header = build_header(team_name, team_id, cap_date, len(players), totals, opponent, team, REC_SIZE, fmt)
 
     team_gp = int(totals.get("gp") or 0) if totals is not None else 0
 
     for p, nm in zip(players, names):
-        pit = is_pitcher(p)
-        u16 = stats_from_player_elem(p, pit)
-        player_class = (p.get("class") or p.get("year") or "").strip()
+        pit = fmt.is_pitcher(p)
+        u16 = stats_from_player_elem(p, pit, fmt)
+        player_class = fmt.player_class(p)
         recs.append(pack_player_record(team_id, nm, pit, u16, player_class, team_gp))
 
     out_path = xml_path.with_suffix(".cap")
