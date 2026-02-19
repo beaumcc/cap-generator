@@ -60,12 +60,27 @@ python cap_generator.py /path/to/stats/
 | Offset | Size | Description |
 |--------|------|-------------|
 | 0-19 | 20 | Team name (ASCII, space-padded) |
+| 20 | 1 | Null separator |
 | 21-28 | 8 | Team ID (ASCII, space-padded) |
+| 29 | 1 | Null separator |
 | 30-37 | 8 | Date (MM/DD/YY format) |
+| 38-39 | 2 | Padding (zeroes) |
 | 40-41 | 2 | Player count (uint16 LE) |
-| 42-43 | 2 | Record size (uint16 LE) |
-| 44-45 | 2 | Games played (uint16 LE) |
-| 76-99 | 24 | Opponent pseudo-record header |
+| 42-43 | 2 | Record size (uint16 LE, always 216) |
+| 44-45 | 2 | Wins (uint16 LE) |
+| 46-47 | 2 | Losses (uint16 LE) |
+| 48-49 | 2 | Unknown |
+| 50-51 | 2 | Conference wins (uint16 LE) |
+| 52-53 | 2 | Conference losses (uint16 LE) |
+| 54-55 | 2 | Unknown |
+| 56-57 | 2 | Fielding INDP — induced double plays (uint16 LE) |
+| 58-59 | 2 | Unknown |
+| 60-61 | 2 | Fielding SBA — stolen base attempts (uint16 LE) |
+| 62-63 | 2 | Fielding CSB — caught stealing by (uint16 LE) |
+| 64-65 | 2 | Pitching SHO — shutouts (uint16 LE) |
+| 66-67 | 2 | Pitching CBO — combined shutouts (uint16 LE) |
+| 68-75 | 8 | Padding (zeroes) |
+| 76-99 | 24 | Opponent pseudo-record header (name="Opponents", type=0x78) |
 | 100-291 | 192 | Opponent stats (96 x uint16 LE) |
 
 ### Player Record (216 bytes)
@@ -73,12 +88,46 @@ python cap_generator.py /path/to/stats/
 | Offset | Size | Description |
 |--------|------|-------------|
 | 0-7 | 8 | Team ID (ASCII, space-padded) |
-| 8 | 1 | Null byte |
+| 8 | 1 | Null separator |
 | 9-20 | 12 | Player name (ASCII, space-padded) |
-| 21 | 1 | Null byte |
-| 22 | 1 | 0x20 |
-| 23 | 1 | Type flag (0x02) |
+| 21 | 1 | Null separator |
+| 22 | 1 | Class/handedness byte (see below) |
+| 23 | 1 | Last game appeared in (game number, not pitcher/hitter flag) |
 | 24-215 | 192 | Stats (96 x uint16 little-endian) |
+
+#### Byte 22: Class Year + Bats/Throws Encoding
+
+Byte 22 encodes the player's class year in the high bits and batting/throwing handedness in the low bits. The value is `CLASS | HANDS`.
+
+**Class year (high bits):**
+
+| Value | Class |
+|-------|-------|
+| 0x08 | Freshman |
+| 0x10 | Sophomore |
+| 0x20 | Junior |
+| 0x40 | Senior / Graduate |
+
+**Bats/throws (low bits, OR'd with class):**
+
+| Bits | Bats | Throws | Example (Junior) |
+|------|------|--------|------------------|
+| 0x00 | R | R | 0x20 |
+| 0x01 | L | R | 0x21 |
+| 0x02 | R | L | 0x22 |
+| 0x03 | L | L | 0x23 |
+| 0x04 | B (switch) | R | 0x24 |
+| 0x06 | B (switch) | L | 0x26 |
+
+TAS XML provides `bats` and `throws` attributes, so the full byte is encoded. PrestoSports lacks these attributes, so the low bits default to 0x00 (R/R).
+
+#### Byte 23: Last Game Appeared
+
+Byte 23 stores the game number in which the player last appeared, not a pitcher/hitter type flag. For a team with 64 games played, a starter who played the final game has 0x40 (64), while a player whose last appearance was game 33 has 0x21 (33). The script approximates this as `team_gp` for all players since game-by-game logs are not available in the season XML.
+
+#### Position
+
+Player position (OF, INF, C, RHP, LHP, etc.) is **not** encoded in the CAP format. The only positional distinction is pitcher vs hitter, which determines which u16 stat slots are populated. Pitchers use the pitching stat indices (36-66, 86-95); hitters do not.
 
 ## Stat Mapping Reference
 
@@ -105,22 +154,28 @@ Stats are stored as 96 consecutive uint16 (2-byte) little-endian values starting
 | 12 | 48 | `hbp` | Hit By Pitch |
 | 13 | 50 | `sh` | Sacrifice Hits |
 | 14 | 52 | `sf` | Sacrifice Flies |
+| 15 | 54 | | *(unmapped)* |
 | 16 | 56 | `so` | Strikeouts |
 | 17 | 58 | `kl` | Strikeouts Looking |
 | 18 | 60 | `gdp` | Ground into Double Play |
 | 19 | 62 | `hitdp` | Hit into Double Play |
+| 20 | 64 | | *(unmapped)* |
+| 21 | 66 | `ibb` | Intentional Walks |
 
 ### Fielding Stats
 
 | Index | Byte Offset | XML Attribute | Description |
 |-------|-------------|---------------|-------------|
+| 26 | 76 | `picked` | Picked Off (hitter) / SH duplicate (opponent) |
 | 27 | 78 | `po` | Putouts |
 | 28 | 80 | `a` | Assists |
 | 29 | 82 | `e` | Errors |
 | 30 | 84 | `pb` | Passed Balls |
 | 31 | 86 | `indp` | Induced Double Plays |
+| 32 | 88 | | *(unmapped)* |
 | 33 | 90 | `csb` | Caught Stealing By |
 | 34 | 92 | `sba` | Stolen Base Attempts |
+| 35 | 94 | `ci` | Catcher's Interference |
 
 ### Hitting Situational Stats
 
@@ -161,27 +216,40 @@ Pair stats are parsed from XML format `"made,opp"`.
 
 ### Pitching Stats (Pitchers & Opponent Record)
 
-| Index | Byte Offset | XML Attribute | Description |
-|-------|-------------|---------------|-------------|
-| 26 | 76 | `sh` | Sacrifice Hits (opponent duplicate) |
-| 36 | 96 | `appear` | Appearances |
-| 37 | 98 | `win` | Wins |
-| 38 | 100 | `loss` | Losses |
-| 42 | 108 | `bf` | Batters Faced |
-| 43 | 110 | `ab` | At Bats Against |
-| 45 | 114 | `loss` | Losses (duplicate) |
-| 47 | 118 | `ip` | Innings Pitched (as outs: IP × 3) |
-| 48 | 120 | `h` | Hits Allowed |
-| 49 | 122 | `r` | Runs Allowed |
-| 50 | 124 | `er` | Earned Runs |
-| 51 | 126 | `bb` | Walks |
-| 52 | 128 | `k` | Strikeouts |
-| 53 | 130 | `kl` | Strikeouts Looking |
-| 54 | 132 | `gdp` | Ground into DP Induced |
-| 56 | 136 | `hbp` | Hit Batters |
-| 57 | 138 | `wp` | Wild Pitches (× 256, high byte) |
-| 58 | 140 | `double` | Doubles Allowed |
-| 60 | 144 | `hr` | Home Runs Allowed |
+For individual pitcher records, some indices have different meanings than the opponent record (noted below).
+
+| Index | Byte Offset | Opponent Record | Individual Pitcher |
+|-------|-------------|-----------------|---------------------|
+| 36 | 96 | Appearances | Appearances |
+| 37 | 98 | Appearances (dup) | Games Started |
+| 38 | 100 | Losses | Games Finished |
+| 39 | 102 | Complete Games | — |
+| 40 | 104 | Shutouts | — |
+| 41 | 106 | Combined Shutouts | Combined Shutouts |
+| 42 | 108 | Batters Faced | Batters Faced |
+| 43 | 110 | At Bats Against | At Bats Against |
+| 44 | 112 | Wins | Wins |
+| 45 | 114 | Losses (dup) | Losses |
+| 46 | 116 | Saves | Saves |
+| 47 | 118 | IP (as outs: IP × 3) | IP (as outs: IP × 3) |
+| 48 | 120 | Hits Allowed | Hits Allowed |
+| 49 | 122 | Runs Allowed | Runs Allowed |
+| 50 | 124 | Earned Runs | Earned Runs |
+| 51 | 126 | Walks | Walks |
+| 52 | 128 | Strikeouts | Strikeouts |
+| 53 | 130 | Strikeouts Looking | Strikeouts Looking |
+| 54 | 132 | Wild Pitches | Wild Pitches |
+| 55 | 134 | Balks | Balks |
+| 56 | 136 | Hit Batters | Hit Batters |
+| 57 | 138 | WP × 256 (high byte) | WP × 256 (high byte) |
+| 58 | 140 | Doubles Allowed | Doubles Allowed |
+| 59 | 142 | Triples Allowed | Triples Allowed |
+| 60 | 144 | Home Runs Allowed | Home Runs Allowed |
+| 63 | 150 | Pickoffs | Pickoffs |
+| 65 | 154 | Sacrifice Hits Allowed | Sacrifice Hits Allowed |
+| 66 | 156 | Sacrifice Flies Allowed | Sacrifice Flies Allowed |
+
+Note: u16[57] is a redundant copy of wild pitches stored as `wp << 8` (the wp count in the high byte of the uint16). This is a TAS internal format quirk.
 
 ### Pitching Situational Stats
 
