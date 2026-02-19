@@ -1,0 +1,1018 @@
+<bsseas source="TAS Baseball/Softball" version="5.16.06" date="2/17/2026">
+  <venue type="BASEBALL" ncaadivision="I" erabasis="9"></venue>
+  <team code="433" id="OM" name="Ole Miss" season="2025" conf="SEC" coach="Mike Bianco"
+           overall="43-21-0" confonly="16-14-0" home="27-10-0" away="10-8-0" neutral="6-3-0"></team>
+  <totals gp="64" w="43" l="21" t="0">
+    <hitting ab="2168" r="498" h="622" rbi="459" double="102" triple="10" hr="124" bb="345" so="611"
+             ibb="6" hbp="100" kl="150" sb="71" cs="23" sh="12" sf="26" rchci="0" gdp="43" picked="7" hitdp="50" hittp="0"
+             bavg=".287" slugpct=".515" obpct=".404"></hitting>
+    <fielding po="1674" a="521" e="68" pb="2" ci="1" sba="43" csb="18" indp="40" intp="0" fldpct=".970"></fielding>
+    <pitching appear="64" win="43" loss="21" save="15" cg="0" sho="3" cbo="3"
+             ip="558.0" h="541" r="346" er="288" bb="253" k="669" double="107" triple="14" hr="67" era="4.65" bavg=".253"
+             ab="2141" bf="2516" wp="54" hbp="76" bk="7" sfa="20" sha="25" cia="1" kl="177" ibb="7" gdp="35"></pitching>
+    <hsitsummary rcherr="37" rchfc="54" ground="431" fly="507" w2outs="170,675" wrunners="318,1085" wrbiops="192,655"
+             vsleft="177,612" vsright="445,1556" leadoff="228,547" rbi3rd="119,193" wloaded="25,88" advops="633,1284" pinchhit="13,54"
+             adv="156" lob="525" rbi-2out="148"></hsitsummary>
+    <psitsummary fly="471" ground="453" picked="25" leadoff="205,560" wrunners="266,1026"
+             vsleft="247,963" vsright="294,1178" w2outs="151,679"></psitsummary>
+  </totals>
+  <opponent>
+    <hitting ab="2141" r="346" h="541" rbi="318" double="107" triple="14" hr="67" bb="253" so="669"
+             ibb="7" hbp="76" kl="177" sb="43" cs="18" sh="25" sf="20" rchci="1" gdp="35" picked="25" hitdp="40" hittp="0"
+             bavg=".253" slugpct=".410" obpct=".349"></hitting>
+    <fielding po="1628" a="508" e="59" pb="7" ci="0" sba="71" csb="23" indp="50" intp="0" fldpct=".973"></fielding>
+    <pitching appear="64" win="21" loss="43" save="12" cg="2" sho="3" cbo="2"
+             ip="542.2" h="622" r="498" er="449" bb="345" k="611" double="102" triple="10" hr="124" era="7.45" bavg=".287"
+             ab="2168" bf="2651" wp="73" hbp="100" bk="5" sfa="26" sha="12" cia="0" kl="150" ibb="6" gdp="43"></pitching>
+    <hsitsummary rcherr="51" rchfc="50" ground="453" fly="471" w2outs="151,679" wrunners="266,1026" wrbiops="156,636"
+             vsleft="158,637" vsright="383,1504" leadoff="205,560" rbi3rd="83,168" wloaded="21,85" advops="514,1172" pinchhit="13,62"
+             adv="126" lob="496" rbi-2out="117"></hsitsummary>
+    <psitsummary fly="507" ground="431" picked="6" leadoff="228,547" wrunners="318,1085"
+             vsleft="303,1056" vsright="319,1112" w2outs="170,675"></psitsummary>
+  </opponent>
+  <player name="Hudson Calhoun" checkname="CALHOUN,HUDSON" uni="23" gp="21" gs="0" bats="R" throws="R" class="SO" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="3" e="0" pb="0" ci="0" sba="3" csb="1" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="21" gs="0" win="3" loss="0" save="0" cg="0" sho="0" cbo="1" gf="3"
+             ip="24.2" h="15" r="18" er="14" bb="18" k="37" double="5" triple="0" hr="4" era="5.11" bavg=".170"
+             ab="88" bf="112" wp="1" hbp="4" bk="1" sfa="0" sha="2" cia="0" kl="9" ibb="2" gdp="1"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="22" ground="11" picked="0" leadoff="8,24" wrunners="11,44"
+             vsleft="5,38" vsright="10,50" w2outs="5,29"></psitsummary>
+  </player>
+  <player name="Alex Canney" checkname="CANNEY,ALEX" uni="55" gp="15" gs="1" bats="R" throws="R" class="SR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="1" a="2" e="0" pb="0" ci="0" sba="2" csb="0" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="15" gs="1" win="1" loss="1" save="1" cg="0" sho="0" cbo="0" gf="4"
+             ip="17.2" h="25" r="12" er="10" bb="10" k="22" double="6" triple="1" hr="0" era="5.09" bavg=".325"
+             ab="77" bf="96" wp="2" hbp="7" bk="0" sfa="0" sha="2" cia="0" kl="4" ibb="1" gdp="1"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="15" ground="15" picked="0" leadoff="7,14" wrunners="19,56"
+             vsleft="11,35" vsright="14,42" w2outs="7,25"></psitsummary>
+  </player>
+  <player name="Luke Cheng" checkname="CHENG,LUKE" uni="03" gp="46" gs="41" bats="R" throws="R" class="SR" active="1" pos="INF">
+    <hitting ab="110" r="23" h="26" rbi="17" double="4" triple="0" hr="4" bb="12" so="35"
+             ibb="0" hbp="18" kl="9" sb="0" cs="0" sh="6" sf="2" rchci="0" gdp="1" picked="0" hitdp="2" hittp="0"
+             bavg=".236" slugpct=".382" obpct=".394"></hitting>
+    <fielding po="51" a="85" e="9" pb="0" ci="0" sba="0" csb="0" indp="18" intp="0" fldpct=".938"></fielding>
+    <hsitsummary rcherr="2" rchfc="4" ground="37" fly="19" w2outs="6,41" wrunners="8,51" wrbiops="6,30"
+             vsleft="7,38" vsright="19,72" leadoff="13,34" rbi3rd="6,11" wloaded="1,5" advops="34,69" pinchhit="0,0"
+             adv="16" lob="35" rbi-2out="5"></hsitsummary>
+  </player>
+  <player name="Connor Chisolm" checkname="CHISOLM,CONNOR" uni="28" gp="13" gs="0" bats="L" throws="R" class="SR" active="1" pos="OF">
+    <hitting ab="8" r="4" h="1" rbi="0" double="0" triple="0" hr="0" bb="3" so="1"
+             ibb="0" hbp="0" kl="0" sb="2" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".125" slugpct=".125" obpct=".364"></hitting>
+    <fielding po="0" a="0" e="0" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct=".000"></fielding>
+    <hsitsummary rcherr="0" rchfc="0" ground="1" fly="5" w2outs="0,3" wrunners="1,6" wrbiops="0,3"
+             vsleft="0,0" vsright="1,8" leadoff="1,1" rbi3rd="0,0" wloaded="0,1" advops="2,6" pinchhit="0,4"
+             adv="1" lob="4" rbi-2out="0"></hsitsummary>
+  </player>
+  <player name="Gunnar Dennis" checkname="DENNIS,GUNNAR" uni="32" gp="18" gs="4" bats="L" throws="L" class="SR" active="1" pos="LHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="1" a="2" e="0" pb="0" ci="0" sba="1" csb="2" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="18" gs="4" win="4" loss="1" save="0" cg="0" sho="0" cbo="2" gf="4"
+             ip="29.0" h="34" r="18" er="16" bb="16" k="32" double="5" triple="1" hr="3" era="4.97" bavg=".293"
+             ab="116" bf="136" wp="1" hbp="3" bk="0" sfa="1" sha="0" cia="0" kl="7" ibb="0" gdp="4"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="27" ground="23" picked="0" leadoff="11,32" wrunners="16,53"
+             vsleft="14,44" vsright="20,72" w2outs="9,38"></psitsummary>
+  </player>
+  <player name="Hunter Elliott" checkname="ELLIOTT,HUNTER" uni="26" gp="17" gs="16" bats="L" throws="L" class="JR" active="1" pos="LHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="6" a="20" e="3" pb="0" ci="0" sba="7" csb="7" indp="0" intp="0" fldpct=".897"></fielding>
+    <pitching appear="17" gs="16" win="10" loss="3" save="0" cg="0" sho="0" cbo="1" gf="1"
+             ip="85.2" h="59" r="31" er="28" bb="40" k="102" double="12" triple="2" hr="4" era="2.94" bavg=".197"
+             ab="299" bf="361" wp="2" hbp="15" bk="0" sfa="1" sha="6" cia="0" kl="24" ibb="0" gdp="3"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="76" ground="61" picked="13" leadoff="36,91" wrunners="19,131"
+             vsleft="17,100" vsright="42,199" w2outs="11,90"></psitsummary>
+  </player>
+  <player name="Austin Fawley" checkname="FAWLEY,AUSTIN" uni="24" gp="51" gs="50" bats="R" throws="R" class="SO" active="1" pos="C">
+    <hitting ab="176" r="40" h="45" rbi="53" double="6" triple="0" hr="21" bb="33" so="77"
+             ibb="0" hbp="5" kl="19" sb="0" cs="0" sh="0" sf="1" rchci="0" gdp="2" picked="0" hitdp="2" hittp="0"
+             bavg=".256" slugpct=".648" obpct=".386"></hitting>
+    <fielding po="504" a="21" e="0" pb="2" ci="0" sba="37" csb="4" indp="1" intp="0" fldpct="1.000"></fielding>
+    <hsitsummary rcherr="3" rchfc="5" ground="20" fly="30" w2outs="14,54" wrunners="23,86" wrbiops="12,56"
+             vsleft="18,56" vsright="27,120" leadoff="15,39" rbi3rd="10,15" wloaded="2,12" advops="52,104" pinchhit="0,0"
+             adv="9" lob="45" rbi-2out="24"></hsitsummary>
+  </player>
+  <player name="Hayden Federico" checkname="FEDERICO,HAYDEN" uni="09" gp="55" gs="46" bats="B" throws="R" class="FR" active="1" pos="INF">
+    <hitting ab="181" r="33" h="44" rbi="23" double="6" triple="0" hr="4" bb="34" so="34"
+             ibb="0" hbp="11" kl="9" sb="12" cs="4" sh="3" sf="3" rchci="0" gdp="4" picked="0" hitdp="5" hittp="0"
+             bavg=".243" slugpct=".343" obpct=".389"></hitting>
+    <fielding po="25" a="4" e="1" pb="0" ci="0" sba="0" csb="0" indp="1" intp="0" fldpct=".967"></fielding>
+    <hsitsummary rcherr="2" rchfc="5" ground="50" fly="57" w2outs="12,48" wrunners="23,83" wrbiops="11,38"
+             vsleft="14,54" vsright="30,127" leadoff="25,74" rbi3rd="8,13" wloaded="0,3" advops="54,104" pinchhit="2,5"
+             adv="22" lob="31" rbi-2out="11"></hsitsummary>
+  </player>
+  <player name="Will Furniss" checkname="FURNISS,WILL" uni="36" gp="58" gs="51" bats="L" throws="R" class="JR" active="1" pos="INF">
+    <hitting ab="203" r="46" h="62" rbi="47" double="7" triple="0" hr="12" bb="43" so="56"
+             ibb="2" hbp="1" kl="25" sb="0" cs="0" sh="0" sf="3" rchci="0" gdp="9" picked="0" hitdp="10" hittp="0"
+             bavg=".305" slugpct=".517" obpct=".424"></hitting>
+    <fielding po="351" a="38" e="9" pb="0" ci="0" sba="0" csb="0" indp="31" intp="0" fldpct=".977"></fielding>
+    <hsitsummary rcherr="2" rchfc="4" ground="57" fly="30" w2outs="16,67" wrunners="38,107" wrbiops="17,57"
+             vsleft="15,47" vsright="47,156" leadoff="24,58" rbi3rd="13,17" wloaded="4,7" advops="67,124" pinchhit="3,5"
+             adv="18" lob="43" rbi-2out="14"></hsitsummary>
+  </player>
+  <player name="Patrick Galle" checkname="GALLE,PATRICK" uni="38" gp="8" gs="0" bats="R" throws="R" class="SO" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="1" a="0" e="0" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="8" gs="0" win="0" loss="0" save="0" cg="0" sho="0" cbo="1" gf="3"
+             ip="7.0" h="13" r="7" er="7" bb="2" k="9" double="3" triple="0" hr="1" era="9.00" bavg=".419"
+             ab="31" bf="36" wp="3" hbp="1" bk="0" sfa="2" sha="0" cia="0" kl="4" ibb="0" gdp="0"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="9" ground="2" picked="0" leadoff="3,5" wrunners="8,21"
+             vsleft="8,13" vsright="5,18" w2outs="8,14"></psitsummary>
+  </player>
+  <player name="Owen Hancock" checkname="HANCOCK,OWEN" uni="35" gp="4" gs="0" bats="R" throws="R" class="FR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="0" e="0" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct=".000"></fielding>
+    <pitching appear="4" gs="0" win="1" loss="0" save="0" cg="0" sho="0" cbo="0" gf="0"
+             ip="3.1" h="2" r="2" er="2" bb="4" k="5" double="0" triple="0" hr="1" era="5.40" bavg=".167"
+             ab="12" bf="16" wp="0" hbp="0" bk="0" sfa="0" sha="0" cia="0" kl="5" ibb="0" gdp="0"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="1" ground="4" picked="0" leadoff="2,4" wrunners="1,6"
+             vsleft="1,2" vsright="1,10" w2outs="0,3"></psitsummary>
+  </player>
+  <player name="Luke Hill" checkname="HILL,LUKE" uni="07" gp="63" gs="63" bats="R" throws="R" class="JR" active="1" pos="INF">
+    <hitting ab="244" r="66" h="82" rbi="40" double="9" triple="2" hr="8" bb="46" so="43"
+             ibb="0" hbp="13" kl="14" sb="18" cs="6" sh="0" sf="4" rchci="0" gdp="10" picked="2" hitdp="11" hittp="0"
+             bavg=".336" slugpct=".488" obpct=".459"></hitting>
+    <fielding po="36" a="98" e="9" pb="0" ci="0" sba="0" csb="0" indp="13" intp="0" fldpct=".937"></fielding>
+    <hsitsummary rcherr="6" rchfc="12" ground="59" fly="60" w2outs="18,64" wrunners="40,123" wrbiops="26,72"
+             vsleft="26,70" vsright="56,174" leadoff="31,47" rbi3rd="14,23" wloaded="1,5" advops="67,140" pinchhit="0,0"
+             adv="13" lob="54" rbi-2out="8"></hsitsummary>
+  </player>
+  <player name="Walker Hooks" checkname="HOOKS,WALKER" uni="19" gp="22" gs="2" bats="L" throws="L" class="FR" active="1" pos="LHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="8" e="0" pb="0" ci="0" sba="2" csb="2" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="22" gs="2" win="1" loss="2" save="1" cg="0" sho="0" cbo="0" gf="3"
+             ip="37.1" h="43" r="22" er="20" bb="12" k="43" double="8" triple="0" hr="5" era="4.82" bavg=".287"
+             ab="150" bf="169" wp="4" hbp="3" bk="1" sfa="0" sha="4" cia="0" kl="9" ibb="0" gdp="1"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="28" ground="35" picked="5" leadoff="13,37" wrunners="22,71"
+             vsleft="20,63" vsright="23,87" w2outs="12,49"></psitsummary>
+  </player>
+  <player name="Isaac Humphrey" checkname="HUMPHREY,ISAAC" uni="51" gp="63" gs="63" bats="L" throws="L" class="SR" active="1" pos="OF">
+    <hitting ab="234" r="53" h="67" rbi="60" double="17" triple="4" hr="13" bb="34" so="71"
+             ibb="0" hbp="11" kl="14" sb="6" cs="2" sh="1" sf="4" rchci="0" gdp="4" picked="2" hitdp="6" hittp="0"
+             bavg=".286" slugpct=".560" obpct=".396"></hitting>
+    <fielding po="140" a="4" e="2" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct=".986"></fielding>
+    <hsitsummary rcherr="3" rchfc="5" ground="34" fly="64" w2outs="18,73" wrunners="35,118" wrbiops="25,80"
+             vsleft="10,63" vsright="57,171" leadoff="16,43" rbi3rd="19,26" wloaded="2,8" advops="76,147" pinchhit="0,0"
+             adv="20" lob="52" rbi-2out="17"></hsitsummary>
+  </player>
+  <player name="Cooper Johnson" checkname="JOHNSON,COOPER" uni="14" gp="4" gs="0" bats="L" throws="L" class="FR" active="1" pos="LHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="1" e="0" pb="0" ci="0" sba="1" csb="0" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="4" gs="0" win="0" loss="0" save="0" cg="0" sho="0" cbo="0" gf="0"
+             ip="3.1" h="6" r="4" er="3" bb="2" k="3" double="1" triple="0" hr="0" era="8.10" bavg=".400"
+             ab="15" bf="20" wp="0" hbp="3" bk="0" sfa="0" sha="0" cia="0" kl="0" ibb="0" gdp="0"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="2" ground="3" picked="1" leadoff="4,4" wrunners="4,13"
+             vsleft="0,3" vsright="6,12" w2outs="0,2"></psitsummary>
+  </player>
+  <player name="Brayden Jones" checkname="JONES,BRAYDEN" uni="16" gp="18" gs="0" bats="R" throws="R" class="JR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="1" a="1" e="1" pb="0" ci="0" sba="2" csb="0" indp="0" intp="0" fldpct=".667"></fielding>
+    <pitching appear="18" gs="0" win="1" loss="2" save="1" cg="0" sho="0" cbo="0" gf="3"
+             ip="18.0" h="24" r="14" er="11" bb="6" k="30" double="4" triple="0" hr="3" era="5.50" bavg=".304"
+             ab="79" bf="87" wp="2" hbp="1" bk="0" sfa="0" sha="1" cia="0" kl="10" ibb="0" gdp="0"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="10" ground="14" picked="0" leadoff="4,18" wrunners="14,37"
+             vsleft="12,33" vsright="12,46" w2outs="9,26"></psitsummary>
+  </player>
+  <player name="Cole Ketchum" checkname="KETCHUM,COLE" uni="43" gp="2" gs="0" bats="R" throws="R" class="SO" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="0" e="0" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct=".000"></fielding>
+    <pitching appear="2" gs="0" win="0" loss="0" save="0" cg="0" sho="0" cbo="0" gf="1"
+             ip="1.0" h="2" r="2" er="1" bb="2" k="1" double="1" triple="0" hr="0" era="9.00" bavg=".400"
+             ab="5" bf="7" wp="0" hbp="0" bk="0" sfa="0" sha="0" cia="0" kl="0" ibb="0" gdp="0"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="0" ground="2" picked="0" leadoff="1,1" wrunners="1,3"
+             vsleft="1,1" vsright="1,4" w2outs="0,1"></psitsummary>
+  </player>
+  <player name="Riley Maddox" checkname="MADDOX,RILEY" uni="02" gp="17" gs="16" bats="R" throws="R" class="SR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="2" a="12" e="0" pb="0" ci="0" sba="11" csb="0" indp="1" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="17" gs="16" win="6" loss="5" save="0" cg="0" sho="0" cbo="0" gf="0"
+             ip="69.2" h="71" r="46" er="43" bb="30" k="69" double="13" triple="2" hr="11" era="5.56" bavg=".261"
+             ab="272" bf="313" wp="5" hbp="7" bk="0" sfa="3" sha="1" cia="0" kl="13" ibb="0" gdp="4"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="68" ground="65" picked="3" leadoff="29,77" wrunners="32,121"
+             vsleft="36,150" vsright="35,122" w2outs="18,82"></psitsummary>
+  </player>
+  <player name="Will McCausland" checkname="MCCAUSLAND,WILL" uni="17" gp="24" gs="1" bats="R" throws="R" class="JR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="2" a="3" e="0" pb="0" ci="0" sba="1" csb="2" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="24" gs="1" win="3" loss="1" save="2" cg="0" sho="0" cbo="1" gf="7"
+             ip="41.2" h="42" r="24" er="20" bb="11" k="55" double="5" triple="1" hr="5" era="4.32" bavg=".258"
+             ab="163" bf="180" wp="4" hbp="3" bk="0" sfa="2" sha="1" cia="0" kl="10" ibb="0" gdp="3"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="31" ground="33" picked="0" leadoff="15,40" wrunners="23,77"
+             vsleft="20,79" vsright="22,84" w2outs="8,51"></psitsummary>
+  </player>
+  <player name="Jackson Miller" checkname="MILLER,JACKSON" uni="39" gp="5" gs="0" bats="R" throws="R" class="FR" active="1" pos="OF">
+    <hitting ab="5" r="3" h="1" rbi="1" double="0" triple="0" hr="0" bb="2" so="1"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".200" slugpct=".200" obpct=".429"></hitting>
+    <fielding po="0" a="0" e="0" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct=".000"></fielding>
+    <hsitsummary rcherr="1" rchfc="0" ground="1" fly="1" w2outs="0,0" wrunners="0,2" wrbiops="0,1"
+             vsleft="0,1" vsright="1,4" leadoff="1,2" rbi3rd="1,1" wloaded="0,0" advops="2,3" pinchhit="0,4"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+  </player>
+  <player name="Ryan Moerman" checkname="MOERMAN,RYAN" uni="18" gp="59" gs="58" bats="R" throws="R" class="SR" active="1" pos="OF">
+    <hitting ab="215" r="46" h="59" rbi="48" double="15" triple="0" hr="11" bb="28" so="58"
+             ibb="0" hbp="13" kl="14" sb="6" cs="0" sh="0" sf="4" rchci="0" gdp="4" picked="0" hitdp="4" hittp="0"
+             bavg=".274" slugpct=".498" obpct=".385"></hitting>
+    <fielding po="75" a="3" e="0" pb="0" ci="0" sba="0" csb="0" indp="1" intp="0" fldpct="1.000"></fielding>
+    <hsitsummary rcherr="5" rchfc="4" ground="36" fly="61" w2outs="22,73" wrunners="34,121" wrbiops="23,76"
+             vsleft="21,70" vsright="38,145" leadoff="16,43" rbi3rd="13,22" wloaded="4,11" advops="71,141" pinchhit="0,1"
+             adv="21" lob="49" rbi-2out="15"></hsitsummary>
+  </player>
+  <player name="Mason Morris" checkname="MORRIS,MASON" uni="21" gp="19" gs="0" bats="R" throws="R" class="JR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="4" a="2" e="0" pb="0" ci="0" sba="2" csb="0" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="19" gs="0" win="5" loss="1" save="1" cg="0" sho="0" cbo="1" gf="3"
+             ip="54.2" h="45" r="25" er="20" bb="21" k="78" double="8" triple="2" hr="6" era="3.29" bavg=".220"
+             ab="205" bf="229" wp="6" hbp="2" bk="1" sfa="1" sha="0" cia="0" kl="23" ibb="0" gdp="4"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="30" ground="53" picked="0" leadoff="14,51" wrunners="18,92"
+             vsleft="23,103" vsright="22,102" w2outs="12,65"></psitsummary>
+  </player>
+  <player name="Mason Nichols" checkname="NICHOLS,MASON" uni="45" gp="16" gs="14" bats="R" throws="R" class="SR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="3" e="1" pb="0" ci="0" sba="6" csb="0" indp="0" intp="0" fldpct=".750"></fielding>
+    <pitching appear="16" gs="14" win="3" loss="2" save="0" cg="0" sho="0" cbo="0" gf="0"
+             ip="53.1" h="59" r="37" er="32" bb="26" k="56" double="7" triple="1" hr="9" era="5.40" bavg=".278"
+             ab="212" bf="250" wp="8" hbp="6" bk="3" sfa="2" sha="4" cia="0" kl="28" ibb="0" gdp="4"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="60" ground="37" picked="1" leadoff="20,58" wrunners="25,92"
+             vsleft="31,113" vsright="28,99" w2outs="21,67"></psitsummary>
+  </player>
+  <player name="Owen Paino" checkname="PAINO,OWEN" uni="06" gp="24" gs="16" bats="L" throws="R" class="FR" active="1" pos="INF">
+    <hitting ab="55" r="13" h="13" rbi="7" double="3" triple="0" hr="1" bb="6" so="18"
+             ibb="0" hbp="4" kl="3" sb="1" cs="1" sh="0" sf="1" rchci="0" gdp="1" picked="0" hitdp="1" hittp="0"
+             bavg=".236" slugpct=".345" obpct=".348"></hitting>
+    <fielding po="29" a="26" e="9" pb="0" ci="0" sba="0" csb="0" indp="8" intp="0" fldpct=".859"></fielding>
+    <hsitsummary rcherr="0" rchfc="1" ground="11" fly="14" w2outs="4,20" wrunners="5,24" wrbiops="3,14"
+             vsleft="3,11" vsright="10,44" leadoff="8,17" rbi3rd="3,5" wloaded="0,2" advops="11,26" pinchhit="1,2"
+             adv="5" lob="15" rbi-2out="3"></hsitsummary>
+  </player>
+  <player name="Taylor Rabe" checkname="RABE,TAYLOR" uni="50" gp="15" gs="2" bats="R" throws="R" class="FR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="2" a="0" e="0" pb="0" ci="0" sba="2" csb="0" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="15" gs="2" win="0" loss="1" save="0" cg="0" sho="0" cbo="0" gf="5"
+             ip="16.1" h="22" r="15" er="8" bb="2" k="8" double="5" triple="0" hr="3" era="4.41" bavg=".319"
+             ab="69" bf="79" wp="2" hbp="6" bk="0" sfa="2" sha="0" cia="0" kl="0" ibb="1" gdp="2"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="14" ground="23" picked="0" leadoff="7,14" wrunners="12,40"
+             vsleft="9,26" vsright="13,43" w2outs="9,24"></psitsummary>
+  </player>
+  <player name="Brayden Randle" checkname="RANDLE,BRAYDEN" uni="01" gp="33" gs="18" bats="L" throws="R" class="SO" active="1" pos="INF">
+    <hitting ab="70" r="14" h="20" rbi="10" double="4" triple="0" hr="1" bb="11" so="10"
+             ibb="0" hbp="0" kl="2" sb="4" cs="2" sh="2" sf="1" rchci="0" gdp="2" picked="1" hitdp="2" hittp="0"
+             bavg=".286" slugpct=".386" obpct=".378"></hitting>
+    <fielding po="21" a="36" e="4" pb="0" ci="0" sba="0" csb="0" indp="8" intp="0" fldpct=".934"></fielding>
+    <hsitsummary rcherr="1" rchfc="2" ground="23" fly="20" w2outs="6,26" wrunners="7,34" wrbiops="4,23"
+             vsleft="3,10" vsright="17,60" leadoff="8,16" rbi3rd="3,5" wloaded="1,5" advops="15,39" pinchhit="1,3"
+             adv="4" lob="24" rbi-2out="4"></hsitsummary>
+  </player>
+  <player name="Collin Reuter" checkname="REUTER,COLLIN" uni="20" gp="26" gs="13" bats="R" throws="R" class="JR" active="1" pos="C">
+    <hitting ab="40" r="9" h="12" rbi="6" double="2" triple="0" hr="3" bb="5" so="13"
+             ibb="0" hbp="2" kl="4" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="1" picked="1" hitdp="1" hittp="0"
+             bavg=".300" slugpct=".575" obpct=".404"></hitting>
+    <fielding po="55" a="3" e="2" pb="0" ci="0" sba="0" csb="0" indp="6" intp="0" fldpct=".967"></fielding>
+    <hsitsummary rcherr="0" rchfc="1" ground="8" fly="7" w2outs="1,7" wrunners="5,18" wrbiops="2,9"
+             vsleft="11,31" vsright="1,9" leadoff="3,9" rbi3rd="0,1" wloaded="0,1" advops="10,21" pinchhit="3,11"
+             adv="2" lob="6" rbi-2out="1"></hsitsummary>
+  </player>
+  <player name="Ryne Rodriguez" checkname="RODRIGUEZ,RYNE" uni="29" gp="19" gs="0" bats="L" throws="L" class="JR" active="1" pos="LHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="1" a="1" e="1" pb="0" ci="0" sba="0" csb="1" indp="0" intp="0" fldpct=".667"></fielding>
+    <pitching appear="19" gs="0" win="1" loss="1" save="0" cg="0" sho="0" cbo="0" gf="1"
+             ip="15.0" h="16" r="12" er="9" bb="6" k="16" double="5" triple="0" hr="1" era="5.40" bavg=".281"
+             ab="57" bf="72" wp="2" hbp="4" bk="1" sfa="3" sha="2" cia="0" kl="2" ibb="0" gdp="0"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="13" ground="15" picked="0" leadoff="3,14" wrunners="11,37"
+             vsleft="11,36" vsright="5,21" w2outs="3,14"></psitsummary>
+  </player>
+  <player name="Mitchell Sanford" checkname="SANFORD,MITCHELL" uni="04" gp="64" gs="64" bats="L" throws="R" class="SR" active="1" pos="OF">
+    <hitting ab="249" r="66" h="79" rbi="47" double="13" triple="4" hr="17" bb="39" so="62"
+             ibb="0" hbp="8" kl="9" sb="13" cs="2" sh="0" sf="2" rchci="0" gdp="0" picked="0" hitdp="1" hittp="0"
+             bavg=".317" slugpct=".606" obpct=".423"></hitting>
+    <fielding po="95" a="1" e="7" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct=".932"></fielding>
+    <hsitsummary rcherr="6" rchfc="6" ground="48" fly="55" w2outs="19,68" wrunners="35,109" wrbiops="18,61"
+             vsleft="29,82" vsright="50,167" leadoff="33,83" rbi3rd="9,15" wloaded="4,8" advops="67,131" pinchhit="0,0"
+             adv="11" lob="50" rbi-2out="15"></hsitsummary>
+  </player>
+  <player name="Campbell Smithwick" checkname="SMITHWICK,CAMPBELL" uni="12" gp="40" gs="27" bats="L" throws="R" class="SO" active="1" pos="C">
+    <hitting ab="110" r="20" h="31" rbi="23" double="5" triple="0" hr="5" bb="17" so="33"
+             ibb="2" hbp="7" kl="7" sb="2" cs="1" sh="0" sf="0" rchci="0" gdp="1" picked="0" hitdp="1" hittp="0"
+             bavg=".282" slugpct=".464" obpct=".410"></hitting>
+    <fielding po="159" a="13" e="1" pb="0" ci="1" sba="5" csb="4" indp="0" intp="0" fldpct=".994"></fielding>
+    <hsitsummary rcherr="0" rchfc="2" ground="17" fly="30" w2outs="12,37" wrunners="18,55" wrbiops="12,35"
+             vsleft="3,13" vsright="28,97" leadoff="11,30" rbi3rd="4,10" wloaded="2,7" advops="31,64" pinchhit="2,12"
+             adv="4" lob="31" rbi-2out="11"></hsitsummary>
+  </player>
+  <player name="Connor Spencer" checkname="SPENCER,CONNOR" uni="22" gp="21" gs="0" bats="R" throws="R" class="SR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="3" a="2" e="0" pb="0" ci="0" sba="2" csb="0" indp="0" intp="0" fldpct="1.000"></fielding>
+    <pitching appear="21" gs="0" win="0" loss="1" save="8" cg="0" sho="0" cbo="1" gf="19"
+             ip="24.2" h="16" r="12" er="5" bb="10" k="27" double="5" triple="0" hr="3" era="1.82" bavg=".176"
+             ab="91" bf="104" wp="0" hbp="1" bk="0" sfa="1" sha="1" cia="0" kl="6" ibb="3" gdp="1"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="24" ground="22" picked="0" leadoff="4,20" wrunners="8,40"
+             vsleft="8,44" vsright="8,47" w2outs="8,38"></psitsummary>
+  </player>
+  <player name="Ethan Surowiec" checkname="SUROWIEC,ETHAN" uni="25" gp="11" gs="3" bats="R" throws="R" class="FR" active="1" pos="INF">
+    <hitting ab="16" r="5" h="6" rbi="8" double="0" triple="0" hr="2" bb="2" so="7"
+             ibb="0" hbp="3" kl="1" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".375" slugpct=".750" obpct=".524"></hitting>
+    <fielding po="11" a="0" e="0" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct="1.000"></fielding>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="3" w2outs="1,6" wrunners="5,9" wrbiops="4,8"
+             vsleft="0,1" vsright="6,15" leadoff="2,3" rbi3rd="2,3" wloaded="1,3" advops="5,9" pinchhit="1,6"
+             adv="0" lob="3" rbi-2out="1"></hsitsummary>
+  </player>
+  <player name="Sam Tookoian" checkname="TOOKOIAN,SAM" uni="47" gp="5" gs="0" bats="L" throws="R" class="JR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="0" e="0" pb="0" ci="0" sba="0" csb="0" indp="0" intp="0" fldpct=".000"></fielding>
+    <pitching appear="5" gs="0" win="0" loss="0" save="0" cg="0" sho="0" cbo="1" gf="1"
+             ip="3.0" h="3" r="2" er="2" bb="5" k="9" double="2" triple="0" hr="0" era="6.00" bavg=".231"
+             ab="13" bf="18" wp="1" hbp="0" bk="0" sfa="0" sha="0" cia="0" kl="0" ibb="0" gdp="0"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="0" ground="1" picked="0" leadoff="2,3" wrunners="2,9"
+             vsleft="2,9" vsright="1,4" w2outs="0,4"></psitsummary>
+  </player>
+  <player name="Cade Townsend" checkname="TOWNSEND,CADE" uni="10" gp="15" gs="8" bats="R" throws="R" class="FR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="1" a="4" e="1" pb="0" ci="0" sba="1" csb="2" indp="0" intp="0" fldpct=".833"></fielding>
+    <pitching appear="15" gs="8" win="1" loss="0" save="0" cg="0" sho="0" cbo="1" gf="0"
+             ip="34.0" h="28" r="30" er="24" bb="20" k="43" double="9" triple="2" hr="4" era="6.35" bavg=".228"
+             ab="123" bf="153" wp="7" hbp="6" bk="0" sfa="2" sha="1" cia="1" kl="11" ibb="0" gdp="3"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="28" ground="23" picked="0" leadoff="16,38" wrunners="13,54"
+             vsleft="8,40" vsright="20,83" w2outs="7,36"></psitsummary>
+  </player>
+  <player name="Judd Utermark" checkname="UTERMARK,JUDD" uni="27" gp="64" gs="63" bats="R" throws="R" class="JR" active="1" pos="INF">
+    <hitting ab="252" r="57" h="74" rbi="69" double="11" triple="0" hr="22" bb="30" so="92"
+             ibb="2" hbp="4" kl="20" sb="7" cs="5" sh="0" sf="1" rchci="0" gdp="4" picked="1" hitdp="4" hittp="0"
+             bavg=".294" slugpct=".599" obpct=".376"></hitting>
+    <fielding po="97" a="125" e="8" pb="0" ci="0" sba="0" csb="0" indp="20" intp="0" fldpct=".965"></fielding>
+    <hsitsummary rcherr="6" rchfc="3" ground="29" fly="51" w2outs="21,88" wrunners="41,139" wrbiops="29,92"
+             vsleft="17,65" vsright="57,187" leadoff="21,48" rbi3rd="14,26" wloaded="3,10" advops="69,156" pinchhit="0,1"
+             adv="10" lob="70" rbi-2out="19"></hsitsummary>
+  </player>
+  <player name="Landon Waters" checkname="WATERS,LANDON" uni="34" gp="17" gs="0" bats="R" throws="R" class="JR" active="1" pos="RHP">
+    <hitting ab="0" r="0" h="0" rbi="0" double="0" triple="0" hr="0" bb="0" so="0"
+             ibb="0" hbp="0" kl="0" sb="0" cs="0" sh="0" sf="0" rchci="0" gdp="0" picked="0" hitdp="0" hittp="0"
+             bavg=".000" slugpct=".000" obpct=".000"></hitting>
+    <fielding po="0" a="0" e="0" pb="0" ci="0" sba="0" csb="1" indp="0" intp="0" fldpct=".000"></fielding>
+    <pitching appear="17" gs="0" win="3" loss="0" save="1" cg="0" sho="0" cbo="0" gf="6"
+             ip="18.2" h="16" r="13" er="13" bb="10" k="24" double="3" triple="2" hr="4" era="6.27" bavg=".250"
+             ab="64" bf="78" wp="4" hbp="4" bk="0" sfa="0" sha="0" cia="0" kl="12" ibb="0" gdp="4"></pitching>
+    <hsitsummary rcherr="0" rchfc="0" ground="0" fly="0" w2outs="0,0" wrunners="0,0" wrbiops="0,0"
+             vsleft="0,0" vsright="0,0" leadoff="0,0" rbi3rd="0,0" wloaded="0,0" advops="0,0" pinchhit="0,0"
+             adv="0" lob="0" rbi-2out="0"></hsitsummary>
+    <psitsummary fly="13" ground="11" picked="0" leadoff="6,15" wrunners="7,29"
+             vsleft="10,31" vsright="6,33" w2outs="4,21"></psitsummary>
+  </player>
+  <games>
+    <game number="1" gameid="OM_01" date="2/14/2025" oppcode="29" oppid="ARIZ" oppname="Arizona"
+             site="Arlington, Texas" stadium="Globe Life Field" ownscore="2" oppscore="1" homeaway="N" attend="0"></game>
+    <game number="2" gameid="OM_02" date="2/15/2025" oppcode="703" oppid="TEX" oppname="Texas"
+             site="Arlington, Texas" stadium="Globe Life Field" ownscore="0" oppscore="10" homeaway="N" attend="13289"></game>
+    <game number="3" gameid="OM_03" date="2/16/2025" oppcode="147" oppid="CU" oppname="Clemson"
+             site="Arlington, Texas" stadium="Globe Life Field" ownscore="15" oppscore="5" homeaway="N" attend="0"></game>
+    <game number="4" gameid="OM_04" date="2/18/2025" oppcode="30" oppid="ASU" oppname="Arkansas State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="4" oppscore="2" homeaway="H" attend="8794"></game>
+    <game number="5" gameid="OM_05" date="2/21/2025" oppcode="" oppid="EKU" oppname="Eastern Kentucky"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="0" homeaway="H" attend="8882"></game>
+    <game number="6" gameid="OM_06" date="2/22/2025" oppcode="" oppid="EKU" oppname="Eastern Kentucky"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="9" oppscore="4" homeaway="H" attend="9172"></game>
+    <game number="7" gameid="OM_07" date="2/23/2025" oppcode="" oppid="EKU" oppname="Eastern Kentucky"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="9" oppscore="3" homeaway="H" attend="8824"></game>
+    <game number="8" gameid="OM_08" date="2/25/2025" oppcode="" oppid="USM" oppname="Southern Miss"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="15" oppscore="8" homeaway="H" attend="10455"></game>
+    <game number="9" gameid="OM_09" date="2/28/2025" oppcode="810" oppid="WSU" oppname="Wright State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="9" oppscore="1" homeaway="H" attend="9792"></game>
+    <game number="10" gameid="OM_10" date="3/1/2025" oppcode="810" oppid="WSU" oppname="Wright State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="3" homeaway="H" attend="10099"></game>
+    <game number="11" gameid="OM_11" date="3/2/2025" oppcode="810" oppid="WSU" oppname="Wright State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="7" oppscore="3" homeaway="H" attend="8819"></game>
+    <game number="12" gameid="OM_12" date="3/5/2025" oppcode="454" oppid="MUR" oppname="Murray State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="7" homeaway="H" attend="8504"></game>
+    <game number="13" gameid="OM_13" date="3/7/2025" oppcode="315" oppid="JSU" oppname="Jacksonville State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="7" oppscore="4" homeaway="H" attend="8827"></game>
+    <game number="14" gameid="OM_14" date="3/8/2025" oppcode="315" oppid="JSU" oppname="Jacksonville State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="12" oppscore="4" homeaway="H" attend="8972"></game>
+    <game number="15" gameid="OM_15" date="3/9/2025" oppcode="315" oppid="JSU" oppname="Jacksonville State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="13" oppscore="2" homeaway="H" attend="8596"></game>
+    <game number="16" gameid="OM_16" date="3/11/2025" oppcode="646" oppid="USA" oppname="South Alabama"
+             site="Mobile, Ala." stadium="Stanky Field" ownscore="5" oppscore="14" homeaway="A" attend="2893"></game>
+    <game number="17" gameid="OM_17" date="3/14/2025" oppcode="31" oppid="ARK" oppname="Arkansas"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="10" oppscore="6" homeaway="H" attend="9090"></game>
+    <game number="18" gameid="OM_18" date="3/15/2025" oppcode="31" oppid="ARK" oppname="Arkansas"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="3" oppscore="12" homeaway="H" attend="9304"></game>
+    <game number="19" gameid="OM_19" date="3/16/2025" oppcode="31" oppid="ARK" oppname="Arkansas"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="9" oppscore="12" homeaway="H" attend="9164"></game>
+    <game number="20" gameid="OM_20" date="3/18/2025" oppcode="" oppid="USM" oppname="Southern Miss"
+             site="Pearl, Miss." stadium="Trustmark Park" ownscore="2" oppscore="6" homeaway="N" attend="3498"></game>
+    <game number="21" gameid="OM_21" date="3/21/2025" oppcode="434" oppid="MIZ" oppname="Missouri"
+             site="Columbia, Mo." stadium="Taylor Stadium" ownscore="9" oppscore="6" homeaway="A" attend="1178"></game>
+    <game number="22" gameid="OM_22" date="3/22/2025" oppcode="434" oppid="MIZ" oppname="Missouri"
+             site="Columbia, Mo." stadium="Taylor Stadium" ownscore="17" oppscore="10" homeaway="A" attend="1532"></game>
+    <game number="23" gameid="OM_23" date="3/23/2025" oppcode="434" oppid="MIZ" oppname="Missouri"
+             site="Columbia, Mo." stadium="Taylor Stadium" ownscore="14" oppscore="6" homeaway="A" attend="1237"></game>
+    <game number="24" gameid="OM_24" date="3/25/2025" oppcode="404" oppid="MEM" oppname="Memphis"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="7" oppscore="5" homeaway="H" attend="9507"></game>
+    <game number="25" gameid="OM_25" date="3/27/2025" oppcode="235" oppid="UF" oppname="Florida"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="7" oppscore="5" homeaway="H" attend="9867"></game>
+    <game number="26" gameid="OM_26" date="3/28/2025" oppcode="235" oppid="UF" oppname="Florida"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="10" oppscore="9" homeaway="H" dh="1" attend="9504"></game>
+    <game number="27" gameid="OM_27" date="3/28/2025" oppcode="235" oppid="UF" oppname="Florida"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="11" homeaway="H" dh="2" attend="9576"></game>
+    <game number="28" gameid="OM_28" date="4/1/2025" oppcode="314" oppid="JST" oppname="Jackson State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="18" oppscore="7" homeaway="H" attend="8802"></game>
+    <game number="29" gameid="OM_29" date="4/4/2025" oppcode="334" oppid="UK" oppname="Kentucky"
+             site="Lexington, Ky." stadium="Kentucky Proud Park" ownscore="4" oppscore="5" homeaway="A" dh="1" attend="0"></game>
+    <game number="30" gameid="OM_30" date="4/4/2025" oppcode="334" oppid="UK" oppname="Kentucky"
+             site="Lexington, Ky." stadium="Kentucky Proud Park" ownscore="3" oppscore="1" homeaway="A" dh="2" attend="2949"></game>
+    <game number="31" gameid="OM_31" date="4/5/2025" oppcode="334" oppid="UK" oppname="Kentucky"
+             site="Lexington, Ky." stadium="Kentucky Proud Park" ownscore="5" oppscore="4" homeaway="A" attend="3082"></game>
+    <game number="32" gameid="OM_32" date="4/8/2025" oppcode="404" oppid="MEM" oppname="Memphis"
+             site="Memphis, Tenn." stadium="FedExPark" ownscore="10" oppscore="0" homeaway="A" attend="1404"></game>
+    <game number="33" gameid="OM_33" date="4/9/2025" oppcode="" oppid="ALCORN" oppname="Alcorn State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="29" oppscore="1" homeaway="H" attend="8612"></game>
+    <game number="34" gameid="OM_34" date="4/11/2025" oppcode="694" oppid="UT" oppname="Tennessee"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="2" oppscore="3" homeaway="H" attend="11818"></game>
+    <game number="35" gameid="OM_35" date="4/12/2025" oppcode="694" oppid="UT" oppname="Tennessee"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="5" homeaway="H" attend="11790"></game>
+    <game number="36" gameid="OM_36" date="4/13/2025" oppcode="694" oppid="UT" oppname="Tennessee"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="10" homeaway="H" attend="10333"></game>
+    <game number="37" gameid="OM_37" date="4/15/2025" oppcode="32" oppid="LRT" oppname="Little Rock"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="3" oppscore="7" homeaway="H" attend="8933"></game>
+    <game number="38" gameid="OM_38" date="4/17/2025" oppcode="648" oppid="SC" oppname="South Carolina"
+             site="Columbia, S.C." stadium="Founders Park" ownscore="2" oppscore="3" homeaway="A" attend="7523"></game>
+    <game number="39" gameid="OM_39" date="4/18/2025" oppcode="648" oppid="SC" oppname="South Carolina"
+             site="Columbia, S.C." stadium="Founders Park" ownscore="2" oppscore="7" homeaway="A" attend="7256"></game>
+    <game number="40" gameid="OM_40" date="4/19/2025" oppcode="648" oppid="SC" oppname="South Carolina"
+             site="Columbia, S.C." stadium="Founders Park" ownscore="12" oppscore="2" homeaway="A" attend="7720"></game>
+    <game number="41" gameid="OM_41" date="4/22/2025" oppcode="430" oppid="MSU" oppname="Mississippi State"
+             site="Pearl, Miss." stadium="Trustmark Park" ownscore="8" oppscore="7" homeaway="N" attend="0"></game>
+    <game number="42" gameid="OM_42" date="4/25/2025" oppcode="736" oppid="VU" oppname="Vanderbilt"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="3" homeaway="H" attend="9159"></game>
+    <game number="43" gameid="OM_43" date="4/26/2025" oppcode="736" oppid="VU" oppname="Vanderbilt"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="7" oppscore="1" homeaway="H" attend="9693"></game>
+    <game number="44" gameid="OM_44" date="4/27/2025" oppcode="736" oppid="VU" oppname="Vanderbilt"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="0" oppscore="13" homeaway="H" attend="9111"></game>
+    <game number="45" gameid="OM_45" date="4/29/2025" oppcode="43" oppid="APSU" oppname="Austin Peay"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="6" oppscore="3" homeaway="H" attend="9032"></game>
+    <game number="46" gameid="OM_46" date="5/2/2025" oppcode="522" oppid="OU" oppname="Oklahoma"
+             site="Norman, OK" stadium="L Dale Mitchell Park" ownscore="0" oppscore="2" homeaway="A" attend="3144"></game>
+    <game number="47" gameid="OM_47" date="5/3/2025" oppcode="522" oppid="OU" oppname="Oklahoma"
+             site="Norman, OK" stadium="L Dale Mitchell Park" ownscore="3" oppscore="5" homeaway="A" attend="3578"></game>
+    <game number="48" gameid="OM_48" date="5/4/2025" oppcode="522" oppid="OU" oppname="Oklahoma"
+             site="Norman, OK" stadium="L Dale Mitchell Park" ownscore="7" oppscore="3" homeaway="A" attend="3105"></game>
+    <game number="49" gameid="OM_49" date="5/9/2025" oppcode="430" oppid="MSU" oppname="Mississippi State"
+             site="Starkville, Miss." stadium="Dudy Noble Field" ownscore="10" oppscore="4" homeaway="A" dh="1" attend="0"></game>
+    <game number="50" gameid="OM_50" date="5/9/2025" oppcode="430" oppid="MSU" oppname="Mississippi State"
+             site="Starkville, Miss." stadium="Dudy Noble Field" ownscore="1" oppscore="4" homeaway="A" dh="2" attend="14468"></game>
+    <game number="51" gameid="OM_51" date="5/10/2025" oppcode="430" oppid="MSU" oppname="Mississippi State"
+             site="Starkville, Miss." stadium="Dudy Noble Field" ownscore="5" oppscore="6" homeaway="A" attend="11641"></game>
+    <game number="52" gameid="OM_52" date="5/13/2025" oppcode="695" oppid="UTM" oppname="UT Martin"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="11" oppscore="5" homeaway="H" attend="8750"></game>
+    <game number="53" gameid="OM_53" date="5/15/2025" oppcode="37" oppid="AUBURN" oppname="Auburn"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="9" oppscore="2" homeaway="H" attend="8947"></game>
+    <game number="54" gameid="OM_54" date="5/16/2025" oppcode="37" oppid="AUBURN" oppname="Auburn"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="15" oppscore="11" homeaway="H" attend="9036"></game>
+    <game number="55" gameid="OM_55" date="5/17/2025" oppcode="37" oppid="AUBURN" oppname="Auburn"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="13" homeaway="H" attend="9153"></game>
+    <game number="56" gameid="OM_56" date="5/21/2025" oppcode="235" oppid="UF" oppname="Florida"
+             site="Hoover, Ala." stadium="Hoover Met" ownscore="3" oppscore="1" homeaway="N" attend="0"></game>
+    <game number="57" gameid="OM_57" date="5/23/2025" oppcode="31" oppid="ARK" oppname="Arkansas"
+             site="Hoover, Ala." stadium="Hoover Met" ownscore="5" oppscore="2" homeaway="N" attend="0"></game>
+    <game number="58" gameid="OM_58" date="5/24/2025" oppcode="" oppid="LSU" oppname="LSU"
+             site="Hoover, Ala." stadium="Hoover Met" ownscore="2" oppscore="0" homeaway="N" attend="14775"></game>
+    <game number="59" gameid="OM_59" date="5/25/2025" oppcode="736" oppid="VU" oppname="Vanderbilt"
+             site="Hoover, Ala." stadium="Hoover Met" ownscore="2" oppscore="3" homeaway="N" attend="13518"></game>
+    <game number="60" gameid="OM_60" date="5/30/2025" oppcode="454" oppid="MUR" oppname="Murray State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="6" oppscore="9" homeaway="H" attend="11925"></game>
+    <game number="61" gameid="OM_61" date="5/31/2025" oppcode="" oppid="WKU" oppname="Western Kentucky"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="8" oppscore="6" homeaway="H" attend="11703"></game>
+    <game number="62" gameid="OM_62" date="6/1/2025" oppcode="" oppid="GT" oppname="Georgia Tech"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="11" oppscore="9" homeaway="A" attend="11620"></game>
+    <game number="63" gameid="OM_63" date="6/1/2025" oppcode="454" oppid="MUR" oppname="Murray State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="19" oppscore="8" homeaway="H" attend="11617"></game>
+    <game number="64" gameid="OM_64" date="6/2/2025" oppcode="454" oppid="MUR" oppname="Murray State"
+             site="Oxford, Miss." stadium="Swayze Field" ownscore="11" oppscore="12" homeaway="H" attend="11905"></game>
+  </games>
+  <hsituations tmid="OM" generated="2/17/2026">
+    <player name="Luke Cheng">
+      <hsituation context="vs left" avg=" .184" ab="38" h="7" rbi="2" double="1" triple="0" hr="1" tb="11" slug=" .289" bb="4" hbp="6" k="13" gdp="0" onbase=" .354" sac="4" sf="0"/>
+      <hsituation context="vs right" avg=" .264" ab="72" h="19" rbi="15" double="3" triple="0" hr="3" tb="31" slug=" .431" bb="8" hbp="12" k="22" gdp="1" onbase=" .415" sac="2" sf="2"/>
+      <hsituation context="as leadoff" avg=" .250" ab="28" h="7" rbi="0" double="2" triple="0" hr="0" tb="9" slug=" .321" bb="2" hbp="4" k="9" gdp="0" onbase=" .382" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .157" ab="51" h="8" rbi="16" double="1" triple="0" hr="3" tb="18" slug=" .353" bb="5" hbp="8" k="20" gdp="1" onbase=" .318" sac="6" sf="2"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .111" ab="27" h="3" rbi="5" double="1" triple="0" hr="1" tb="7" slug=" .259" bb="3" hbp="2" k="13" gdp="0" onbase=" .250" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .200" ab="30" h="6" rbi="14" double="1" triple="0" hr="2" tb="13" slug=" .433" bb="3" hbp="4" k="11" gdp="0" onbase=" .333" sac="3" sf="2"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .188" ab="16" h="3" rbi="5" double="1" triple="0" hr="1" tb="7" slug=" .438" bb="3" hbp="1" k="7" gdp="0" onbase=" .350" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .305" ab="59" h="18" rbi="1" double="3" triple="0" hr="1" tb="24" slug=" .407" bb="7" hbp="10" k="15" gdp="0" onbase=" .461" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .200" ab="5" h="1" rbi="4" double="0" triple="0" hr="0" tb="1" slug=" .200" bb="0" hbp="0" k="3" gdp="0" onbase=" .143" sac="0" sf="2"/>
+    </player>
+    <player name="Connor Chisolm">
+      <hsituation context="vs left" avg=" .000" ab="0" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="0" gdp="0" onbase="1.000" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .125" ab="8" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .125" bb="2" hbp="0" k="1" gdp="0" onbase=" .300" sac="0" sf="0"/>
+      <hsituation context="as leadoff" avg=" .000" ab="0" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="0" gdp="0" onbase="1.000" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .167" ab="6" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .167" bb="1" hbp="0" k="1" gdp="0" onbase=" .286" sac="0" sf="0"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .000" ab="2" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="0" k="0" gdp="0" onbase=" .000" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .000" ab="3" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="0" gdp="0" onbase=" .250" sac="0" sf="0"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .000" ab="2" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="0" k="0" gdp="0" onbase=" .000" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .000" ab="2" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="2" hbp="0" k="0" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .000" ab="1" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="0" k="0" gdp="0" onbase=" .000" sac="0" sf="0"/>
+      <hsituation context="pinch-hitting" avg=" .000" ab="4" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="3" hbp="0" k="1" gdp="0" onbase=" .429" sac="0" sf="0"/>
+    </player>
+    <player name="Austin Fawley">
+      <hsituation context="vs left" avg=" .321" ab="56" h="18" rbi="15" double="1" triple="0" hr="7" tb="40" slug=" .714" bb="7" hbp="3" k="24" gdp="0" onbase=" .424" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .225" ab="120" h="27" rbi="38" double="5" triple="0" hr="14" tb="74" slug=" .617" bb="26" hbp="2" k="53" gdp="2" onbase=" .369" sac="0" sf="1"/>
+      <hsituation context="as leadoff" avg=" .250" ab="32" h="8" rbi="4" double="1" triple="0" hr="4" tb="21" slug=" .656" bb="6" hbp="1" k="14" gdp="0" onbase=" .385" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .267" ab="86" h="23" rbi="42" double="3" triple="0" hr="10" tb="56" slug=" .651" bb="19" hbp="2" k="33" gdp="2" onbase=" .407" sac="0" sf="1"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .229" ab="35" h="8" rbi="21" double="1" triple="0" hr="6" tb="27" slug=" .771" bb="8" hbp="1" k="14" gdp="0" onbase=" .386" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .214" ab="56" h="12" rbi="30" double="2" triple="0" hr="4" tb="26" slug=" .464" bb="15" hbp="1" k="22" gdp="2" onbase=" .384" sac="0" sf="1"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .160" ab="25" h="4" rbi="13" double="1" triple="0" hr="2" tb="11" slug=" .440" bb="6" hbp="1" k="11" gdp="0" onbase=" .344" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .244" ab="90" h="22" rbi="11" double="3" triple="0" hr="11" tb="58" slug=" .644" bb="14" hbp="3" k="44" gdp="0" onbase=" .364" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .167" ab="12" h="2" rbi="12" double="0" triple="0" hr="1" tb="5" slug=" .417" bb="3" hbp="1" k="6" gdp="1" onbase=" .353" sac="0" sf="1"/>
+    </player>
+    <player name="Hayden Federico">
+      <hsituation context="vs left" avg=" .259" ab="54" h="14" rbi="11" double="3" triple="0" hr="3" tb="26" slug=" .481" bb="7" hbp="3" k="11" gdp="0" onbase=" .375" sac="1" sf="0"/>
+      <hsituation context="vs right" avg=" .236" ab="127" h="30" rbi="12" double="3" triple="0" hr="1" tb="36" slug=" .283" bb="27" hbp="8" k="23" gdp="4" onbase=" .394" sac="2" sf="3"/>
+      <hsituation context="as leadoff" avg=" .194" ab="62" h="12" rbi="3" double="0" triple="0" hr="3" tb="21" slug=" .339" bb="8" hbp="4" k="13" gdp="0" onbase=" .324" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .277" ab="83" h="23" rbi="20" double="5" triple="0" hr="1" tb="31" slug=" .373" bb="16" hbp="7" k="14" gdp="4" onbase=" .422" sac="3" sf="3"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .258" ab="31" h="8" rbi="11" double="1" triple="0" hr="1" tb="12" slug=" .387" bb="10" hbp="1" k="6" gdp="0" onbase=" .452" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .297" ab="37" h="11" rbi="18" double="2" triple="0" hr="0" tb="13" slug=" .351" bb="12" hbp="2" k="5" gdp="0" onbase=" .463" sac="3" sf="3"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .375" ab="16" h="6" rbi="9" double="1" triple="0" hr="0" tb="7" slug=" .438" bb="9" hbp="0" k="1" gdp="0" onbase=" .600" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .214" ab="98" h="21" rbi="3" double="1" triple="0" hr="3" tb="31" slug=" .316" bb="18" hbp="4" k="20" gdp="0" onbase=" .358" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .000" ab="3" h="0" rbi="4" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="0" gdp="0" onbase=" .167" sac="0" sf="2"/>
+      <hsituation context="pinch-hitting" avg=" .400" ab="5" h="2" rbi="1" double="0" triple="0" hr="0" tb="2" slug=" .400" bb="0" hbp="1" k="0" gdp="0" onbase=" .500" sac="0" sf="0"/>
+    </player>
+    <player name="Will Furniss">
+      <hsituation context="vs left" avg=" .319" ab="47" h="15" rbi="10" double="1" triple="0" hr="4" tb="28" slug=" .596" bb="10" hbp="0" k="12" gdp="3" onbase=" .439" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .301" ab="156" h="47" rbi="37" double="6" triple="0" hr="8" tb="77" slug=" .494" bb="33" hbp="1" k="44" gdp="6" onbase=" .420" sac="0" sf="3"/>
+      <hsituation context="as leadoff" avg=" .277" ab="47" h="13" rbi="5" double="0" triple="0" hr="5" tb="28" slug=" .596" bb="11" hbp="0" k="15" gdp="0" onbase=" .414" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .355" ab="107" h="38" rbi="40" double="4" triple="0" hr="5" tb="57" slug=" .533" bb="24" hbp="0" k="23" gdp="9" onbase=" .463" sac="0" sf="3"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .263" ab="38" h="10" rbi="12" double="0" triple="0" hr="1" tb="13" slug=" .342" bb="13" hbp="0" k="9" gdp="0" onbase=" .451" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .298" ab="57" h="17" rbi="31" double="2" triple="0" hr="1" tb="22" slug=" .386" bb="18" hbp="0" k="11" gdp="2" onbase=" .449" sac="0" sf="3"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .222" ab="27" h="6" rbi="11" double="0" triple="0" hr="1" tb="9" slug=" .333" bb="10" hbp="0" k="6" gdp="0" onbase=" .432" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .250" ab="96" h="24" rbi="7" double="3" triple="0" hr="7" tb="48" slug=" .500" bb="19" hbp="1" k="33" gdp="0" onbase=" .379" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .571" ab="7" h="4" rbi="12" double="1" triple="0" hr="0" tb="5" slug=" .714" bb="3" hbp="0" k="1" gdp="1" onbase=" .636" sac="0" sf="1"/>
+      <hsituation context="pinch-hitting" avg=" .600" ab="5" h="3" rbi="3" double="1" triple="0" hr="1" tb="7" slug="1.400" bb="1" hbp="0" k="1" gdp="0" onbase=" .667" sac="0" sf="0"/>
+    </player>
+    <player name="Luke Hill">
+      <hsituation context="vs left" avg=" .371" ab="70" h="26" rbi="12" double="1" triple="1" hr="5" tb="44" slug=" .629" bb="14" hbp="2" k="9" gdp="1" onbase=" .488" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .322" ab="174" h="56" rbi="28" double="8" triple="1" hr="3" tb="75" slug=" .431" bb="32" hbp="11" k="34" gdp="9" onbase=" .448" sac="0" sf="4"/>
+      <hsituation context="as leadoff" avg=" .469" ab="32" h="15" rbi="4" double="2" triple="0" hr="4" tb="29" slug=" .906" bb="13" hbp="2" k="1" gdp="0" onbase=" .638" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .325" ab="123" h="40" rbi="35" double="2" triple="2" hr="3" tb="55" slug=" .447" bb="14" hbp="8" k="22" gdp="10" onbase=" .416" sac="0" sf="4"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .237" ab="38" h="9" rbi="7" double="0" triple="1" hr="0" tb="11" slug=" .289" bb="6" hbp="7" k="6" gdp="0" onbase=" .431" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .361" ab="72" h="26" rbi="31" double="1" triple="2" hr="1" tb="34" slug=" .472" bb="9" hbp="5" k="13" gdp="3" onbase=" .444" sac="0" sf="4"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .276" ab="29" h="8" rbi="7" double="0" triple="1" hr="0" tb="10" slug=" .345" bb="5" hbp="4" k="3" gdp="0" onbase=" .447" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .347" ab="121" h="42" rbi="5" double="7" triple="0" hr="5" tb="64" slug=" .529" bb="32" hbp="5" k="21" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .200" ab="5" h="1" rbi="4" double="0" triple="0" hr="0" tb="1" slug=" .200" bb="0" hbp="0" k="1" gdp="1" onbase=" .143" sac="0" sf="2"/>
+    </player>
+    <player name="Isaac Humphrey">
+      <hsituation context="vs left" avg=" .159" ab="63" h="10" rbi="10" double="2" triple="0" hr="4" tb="24" slug=" .381" bb="7" hbp="3" k="27" gdp="2" onbase=" .270" sac="1" sf="1"/>
+      <hsituation context="vs right" avg=" .333" ab="171" h="57" rbi="50" double="15" triple="4" hr="9" tb="107" slug=" .626" bb="27" hbp="8" k="44" gdp="2" onbase=" .440" sac="0" sf="3"/>
+      <hsituation context="as leadoff" avg=" .289" ab="38" h="11" rbi="2" double="4" triple="0" hr="2" tb="21" slug=" .553" bb="5" hbp="0" k="10" gdp="0" onbase=" .372" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .297" ab="118" h="35" rbi="54" double="9" triple="1" hr="7" tb="67" slug=" .568" bb="20" hbp="10" k="33" gdp="4" onbase=" .428" sac="1" sf="4"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .239" ab="46" h="11" rbi="16" double="4" triple="0" hr="3" tb="24" slug=" .522" bb="5" hbp="5" k="15" gdp="0" onbase=" .375" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .313" ab="80" h="25" rbi="46" double="8" triple="0" hr="4" tb="45" slug=" .563" bb="12" hbp="9" k="23" gdp="3" onbase=" .438" sac="1" sf="4"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .219" ab="32" h="7" rbi="11" double="3" triple="0" hr="1" tb="13" slug=" .406" bb="3" hbp="5" k="11" gdp="0" onbase=" .375" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .276" ab="116" h="32" rbi="6" double="8" triple="3" hr="6" tb="64" slug=" .552" bb="14" hbp="1" k="38" gdp="0" onbase=" .359" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .250" ab="8" h="2" rbi="12" double="2" triple="0" hr="0" tb="4" slug=" .500" bb="2" hbp="4" k="3" gdp="2" onbase=" .533" sac="0" sf="1"/>
+    </player>
+    <player name="Jackson Miller">
+      <hsituation context="vs left" avg=" .000" ab="1" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="0" k="0" gdp="0" onbase=" .000" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .250" ab="4" h="1" rbi="1" double="0" triple="0" hr="0" tb="1" slug=" .250" bb="2" hbp="0" k="1" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="as leadoff" avg=" .500" ab="2" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .500" bb="0" hbp="0" k="0" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .000" ab="2" h="0" rbi="1" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="2" hbp="0" k="0" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .000" ab="0" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="0" gdp="0" onbase="1.000" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .000" ab="1" h="0" rbi="1" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="2" hbp="0" k="0" gdp="0" onbase=" .667" sac="0" sf="0"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .000" ab="0" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="0" gdp="0" onbase="1.000" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .333" ab="3" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .333" bb="0" hbp="0" k="1" gdp="0" onbase=" .333" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .000" ab="0" h="0" rbi="1" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="0" gdp="0" onbase="1.000" sac="0" sf="0"/>
+      <hsituation context="pinch-hitting" avg=" .000" ab="4" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="1" hbp="0" k="1" gdp="0" onbase=" .200" sac="0" sf="0"/>
+    </player>
+    <player name="Ryan Moerman">
+      <hsituation context="vs left" avg=" .300" ab="70" h="21" rbi="12" double="4" triple="0" hr="5" tb="40" slug=" .571" bb="3" hbp="5" k="19" gdp="1" onbase=" .367" sac="0" sf="1"/>
+      <hsituation context="vs right" avg=" .262" ab="145" h="38" rbi="36" double="11" triple="0" hr="6" tb="67" slug=" .462" bb="25" hbp="8" k="39" gdp="3" onbase=" .392" sac="0" sf="3"/>
+      <hsituation context="as leadoff" avg=" .216" ab="37" h="8" rbi="4" double="2" triple="0" hr="4" tb="22" slug=" .595" bb="3" hbp="3" k="9" gdp="0" onbase=" .326" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .281" ab="121" h="34" rbi="43" double="9" triple="0" hr="6" tb="61" slug=" .504" bb="19" hbp="10" k="30" gdp="4" onbase=" .409" sac="0" sf="4"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .286" ab="49" h="14" rbi="15" double="3" triple="0" hr="2" tb="23" slug=" .469" bb="11" hbp="3" k="11" gdp="0" onbase=" .444" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .307" ab="75" h="23" rbi="42" double="5" triple="0" hr="6" tb="46" slug=" .613" bb="16" hbp="6" k="19" gdp="3" onbase=" .446" sac="0" sf="4"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .286" ab="28" h="8" rbi="14" double="2" triple="0" hr="2" tb="16" slug=" .571" bb="9" hbp="2" k="9" gdp="0" onbase=" .487" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .266" ab="94" h="25" rbi="5" double="6" triple="0" hr="5" tb="46" slug=" .489" bb="9" hbp="3" k="28" gdp="0" onbase=" .349" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .364" ab="11" h="4" rbi="15" double="1" triple="0" hr="1" tb="8" slug=" .727" bb="1" hbp="2" k="2" gdp="1" onbase=" .438" sac="0" sf="2"/>
+      <hsituation context="pinch-hitting" avg=" .000" ab="1" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="0" k="0" gdp="0" onbase=" .000" sac="0" sf="0"/>
+    </player>
+    <player name="Owen Paino">
+      <hsituation context="vs left" avg=" .273" ab="11" h="3" rbi="2" double="0" triple="0" hr="1" tb="6" slug=" .545" bb="1" hbp="3" k="3" gdp="0" onbase=" .467" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .227" ab="44" h="10" rbi="5" double="3" triple="0" hr="0" tb="13" slug=" .295" bb="5" hbp="1" k="15" gdp="1" onbase=" .314" sac="0" sf="1"/>
+      <hsituation context="as leadoff" avg=" .308" ab="13" h="4" rbi="1" double="0" triple="0" hr="1" tb="7" slug=" .538" bb="3" hbp="1" k="3" gdp="0" onbase=" .471" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .208" ab="24" h="5" rbi="6" double="0" triple="0" hr="0" tb="5" slug=" .208" bb="0" hbp="2" k="9" gdp="1" onbase=" .259" sac="0" sf="1"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .182" ab="11" h="2" rbi="3" double="0" triple="0" hr="0" tb="2" slug=" .182" bb="0" hbp="1" k="5" gdp="0" onbase=" .250" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .214" ab="14" h="3" rbi="6" double="0" triple="0" hr="0" tb="3" slug=" .214" bb="0" hbp="2" k="6" gdp="0" onbase=" .294" sac="0" sf="1"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .250" ab="8" h="2" rbi="3" double="0" triple="0" hr="0" tb="2" slug=" .250" bb="0" hbp="1" k="4" gdp="0" onbase=" .333" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .258" ab="31" h="8" rbi="1" double="3" triple="0" hr="1" tb="14" slug=" .452" bb="6" hbp="2" k="9" gdp="0" onbase=" .410" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .000" ab="2" h="0" rbi="1" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="1" k="1" gdp="0" onbase=" .333" sac="0" sf="0"/>
+      <hsituation context="pinch-hitting" avg=" .500" ab="2" h="1" rbi="1" double="0" triple="0" hr="0" tb="1" slug=" .500" bb="0" hbp="0" k="1" gdp="0" onbase=" .500" sac="0" sf="0"/>
+    </player>
+    <player name="Brayden Randle">
+      <hsituation context="vs left" avg=" .300" ab="10" h="3" rbi="0" double="0" triple="0" hr="0" tb="3" slug=" .300" bb="3" hbp="0" k="1" gdp="1" onbase=" .462" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .283" ab="60" h="17" rbi="10" double="4" triple="0" hr="1" tb="24" slug=" .400" bb="8" hbp="0" k="9" gdp="1" onbase=" .362" sac="2" sf="1"/>
+      <hsituation context="as leadoff" avg=" .308" ab="13" h="4" rbi="0" double="1" triple="0" hr="0" tb="5" slug=" .385" bb="3" hbp="0" k="1" gdp="0" onbase=" .438" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .206" ab="34" h="7" rbi="10" double="1" triple="0" hr="1" tb="11" slug=" .324" bb="4" hbp="0" k="6" gdp="2" onbase=" .282" sac="2" sf="1"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .222" ab="18" h="4" rbi="4" double="1" triple="0" hr="0" tb="5" slug=" .278" bb="1" hbp="0" k="3" gdp="0" onbase=" .263" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .174" ab="23" h="4" rbi="10" double="1" triple="0" hr="1" tb="8" slug=" .348" bb="4" hbp="0" k="4" gdp="1" onbase=" .286" sac="1" sf="1"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .200" ab="15" h="3" rbi="4" double="1" triple="0" hr="0" tb="4" slug=" .267" bb="1" hbp="0" k="2" gdp="0" onbase=" .250" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .361" ab="36" h="13" rbi="0" double="3" triple="0" hr="0" tb="16" slug=" .444" bb="7" hbp="0" k="4" gdp="0" onbase=" .465" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .200" ab="5" h="1" rbi="3" double="0" triple="0" hr="0" tb="1" slug=" .200" bb="1" hbp="0" k="1" gdp="0" onbase=" .286" sac="0" sf="1"/>
+      <hsituation context="pinch-hitting" avg=" .333" ab="3" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .333" bb="1" hbp="0" k="1" gdp="0" onbase=" .500" sac="1" sf="0"/>
+    </player>
+    <player name="Collin Reuter">
+      <hsituation context="vs left" avg=" .355" ab="31" h="11" rbi="5" double="2" triple="0" hr="2" tb="19" slug=" .613" bb="5" hbp="1" k="9" gdp="1" onbase=" .459" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .111" ab="9" h="1" rbi="1" double="0" triple="0" hr="1" tb="4" slug=" .444" bb="0" hbp="1" k="4" gdp="0" onbase=" .200" sac="0" sf="0"/>
+      <hsituation context="as leadoff" avg=" .250" ab="8" h="2" rbi="1" double="0" triple="0" hr="1" tb="5" slug=" .625" bb="1" hbp="0" k="3" gdp="0" onbase=" .333" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .278" ab="18" h="5" rbi="4" double="2" triple="0" hr="1" tb="10" slug=" .556" bb="3" hbp="2" k="6" gdp="1" onbase=" .435" sac="0" sf="0"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .000" ab="3" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="2" hbp="1" k="1" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .222" ab="9" h="2" rbi="2" double="1" triple="0" hr="0" tb="3" slug=" .333" bb="1" hbp="2" k="3" gdp="1" onbase=" .417" sac="0" sf="0"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .000" ab="1" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="1" k="0" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .318" ab="22" h="7" rbi="2" double="0" triple="0" hr="2" tb="13" slug=" .591" bb="2" hbp="0" k="7" gdp="0" onbase=" .375" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .000" ab="1" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="0" k="1" gdp="0" onbase=" .000" sac="0" sf="0"/>
+      <hsituation context="pinch-hitting" avg=" .273" ab="11" h="3" rbi="4" double="1" triple="0" hr="1" tb="7" slug=" .636" bb="0" hbp="0" k="3" gdp="1" onbase=" .273" sac="0" sf="0"/>
+    </player>
+    <player name="Mitchell Sanford">
+      <hsituation context="vs left" avg=" .354" ab="82" h="29" rbi="14" double="7" triple="1" hr="5" tb="53" slug=" .646" bb="15" hbp="0" k="25" gdp="0" onbase=" .454" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .299" ab="167" h="50" rbi="33" double="6" triple="3" hr="12" tb="98" slug=" .587" bb="24" hbp="8" k="37" gdp="0" onbase=" .408" sac="0" sf="2"/>
+      <hsituation context="as leadoff" avg=" .333" ab="75" h="25" rbi="9" double="4" triple="2" hr="9" tb="60" slug=" .800" bb="5" hbp="1" k="20" gdp="0" onbase=" .383" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .321" ab="109" h="35" rbi="33" double="7" triple="1" hr="3" tb="53" slug=" .486" bb="21" hbp="7" k="26" gdp="0" onbase=" .453" sac="0" sf="2"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .289" ab="45" h="13" rbi="14" double="4" triple="1" hr="0" tb="19" slug=" .422" bb="7" hbp="6" k="7" gdp="0" onbase=" .448" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .295" ab="61" h="18" rbi="30" double="4" triple="1" hr="2" tb="30" slug=" .492" bb="14" hbp="2" k="14" gdp="0" onbase=" .430" sac="0" sf="2"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .273" ab="33" h="9" rbi="13" double="2" triple="1" hr="0" tb="13" slug=" .394" bb="5" hbp="1" k="5" gdp="0" onbase=" .385" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .314" ab="140" h="44" rbi="14" double="6" triple="3" hr="14" tb="98" slug=" .700" bb="18" hbp="1" k="36" gdp="0" onbase=" .396" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .500" ab="8" h="4" rbi="13" double="1" triple="0" hr="0" tb="5" slug=" .625" bb="3" hbp="0" k="1" gdp="0" onbase=" .583" sac="0" sf="1"/>
+    </player>
+    <player name="Campbell Smithwick">
+      <hsituation context="vs left" avg=" .231" ab="13" h="3" rbi="1" double="1" triple="0" hr="0" tb="4" slug=" .308" bb="2" hbp="1" k="5" gdp="0" onbase=" .375" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .289" ab="97" h="28" rbi="22" double="4" triple="0" hr="5" tb="47" slug=" .485" bb="15" hbp="6" k="28" gdp="1" onbase=" .415" sac="0" sf="0"/>
+      <hsituation context="as leadoff" avg=" .208" ab="24" h="5" rbi="1" double="0" triple="0" hr="1" tb="8" slug=" .333" bb="3" hbp="3" k="8" gdp="0" onbase=" .367" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .327" ab="55" h="18" rbi="20" double="4" triple="0" hr="2" tb="28" slug=" .509" bb="11" hbp="2" k="15" gdp="1" onbase=" .456" sac="0" sf="0"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .345" ab="29" h="10" rbi="10" double="2" triple="0" hr="0" tb="12" slug=" .414" bb="3" hbp="0" k="6" gdp="0" onbase=" .406" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .343" ab="35" h="12" rbi="18" double="4" triple="0" hr="1" tb="19" slug=" .543" bb="8" hbp="1" k="10" gdp="1" onbase=" .477" sac="0" sf="0"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .368" ab="19" h="7" rbi="10" double="2" triple="0" hr="0" tb="9" slug=" .474" bb="3" hbp="0" k="4" gdp="0" onbase=" .455" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .236" ab="55" h="13" rbi="3" double="1" triple="0" hr="3" tb="23" slug=" .418" bb="6" hbp="5" k="18" gdp="0" onbase=" .364" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .286" ab="7" h="2" rbi="6" double="0" triple="0" hr="0" tb="2" slug=" .286" bb="2" hbp="0" k="2" gdp="0" onbase=" .444" sac="0" sf="0"/>
+      <hsituation context="pinch-hitting" avg=" .167" ab="12" h="2" rbi="2" double="0" triple="0" hr="1" tb="5" slug=" .417" bb="0" hbp="0" k="6" gdp="0" onbase=" .167" sac="0" sf="0"/>
+    </player>
+    <player name="Ethan Surowiec">
+      <hsituation context="vs left" avg=" .000" ab="1" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="1" k="1" gdp="0" onbase=" .500" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .400" ab="15" h="6" rbi="8" double="0" triple="0" hr="2" tb="12" slug=" .800" bb="2" hbp="2" k="6" gdp="0" onbase=" .526" sac="0" sf="0"/>
+      <hsituation context="as leadoff" avg=" .500" ab="2" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .500" bb="0" hbp="1" k="1" gdp="0" onbase=" .667" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .556" ab="9" h="5" rbi="8" double="0" triple="0" hr="2" tb="11" slug="1.222" bb="1" hbp="0" k="4" gdp="0" onbase=" .600" sac="0" sf="0"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .500" ab="2" h="1" rbi="1" double="0" triple="0" hr="0" tb="1" slug=" .500" bb="1" hbp="0" k="1" gdp="0" onbase=" .667" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .500" ab="8" h="4" rbi="8" double="0" triple="0" hr="2" tb="10" slug="1.250" bb="1" hbp="0" k="4" gdp="0" onbase=" .556" sac="0" sf="0"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .500" ab="2" h="1" rbi="1" double="0" triple="0" hr="0" tb="1" slug=" .500" bb="1" hbp="0" k="1" gdp="0" onbase=" .667" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .143" ab="7" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .143" bb="1" hbp="3" k="3" gdp="0" onbase=" .455" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .333" ab="3" h="1" rbi="1" double="0" triple="0" hr="0" tb="1" slug=" .333" bb="0" hbp="0" k="2" gdp="0" onbase=" .333" sac="0" sf="0"/>
+      <hsituation context="pinch-hitting" avg=" .167" ab="6" h="1" rbi="0" double="0" triple="0" hr="0" tb="1" slug=" .167" bb="0" hbp="1" k="4" gdp="0" onbase=" .286" sac="0" sf="0"/>
+    </player>
+    <player name="Judd Utermark">
+      <hsituation context="vs left" avg=" .262" ab="65" h="17" rbi="23" double="4" triple="0" hr="7" tb="42" slug=" .646" bb="9" hbp="0" k="25" gdp="2" onbase=" .351" sac="0" sf="0"/>
+      <hsituation context="vs right" avg=" .305" ab="187" h="57" rbi="46" double="7" triple="0" hr="15" tb="109" slug=" .583" bb="21" hbp="4" k="67" gdp="2" onbase=" .385" sac="0" sf="1"/>
+      <hsituation context="as leadoff" avg=" .333" ab="42" h="14" rbi="4" double="1" triple="0" hr="4" tb="27" slug=" .643" bb="4" hbp="2" k="12" gdp="0" onbase=" .417" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .295" ab="139" h="41" rbi="61" double="7" triple="0" hr="14" tb="90" slug=" .647" bb="21" hbp="1" k="49" gdp="4" onbase=" .389" sac="0" sf="1"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .246" ab="61" h="15" rbi="18" double="3" triple="0" hr="5" tb="33" slug=" .541" bb="4" hbp="1" k="24" gdp="0" onbase=" .303" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .315" ab="92" h="29" rbi="56" double="3" triple="0" hr="12" tb="68" slug=" .739" bb="14" hbp="0" k="31" gdp="1" onbase=" .402" sac="0" sf="1"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .227" ab="44" h="10" rbi="15" double="0" triple="0" hr="4" tb="22" slug=" .500" bb="2" hbp="0" k="16" gdp="0" onbase=" .261" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .292" ab="113" h="33" rbi="8" double="4" triple="0" hr="8" tb="61" slug=" .540" bb="9" hbp="3" k="43" gdp="0" onbase=" .360" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .300" ab="10" h="3" rbi="10" double="1" triple="0" hr="1" tb="7" slug=" .700" bb="2" hbp="0" k="4" gdp="1" onbase=" .417" sac="0" sf="0"/>
+      <hsituation context="pinch-hitting" avg=" .000" ab="1" h="0" rbi="0" double="0" triple="0" hr="0" tb="0" slug=" .000" bb="0" hbp="0" k="1" gdp="0" onbase=" .000" sac="0" sf="0"/>
+    </player>
+    <player name="Team totals">
+      <hsituation context="vs left" avg=" .289" ab="612" h="177" rbi="117" double="27" triple="2" hr="44" tb="340" slug=" .556" bb="88" hbp="28" k="184" gdp="11" onbase=" .401" sac="6" sf="2"/>
+      <hsituation context="vs right" avg=" .286" ab="1556" h="445" rbi="342" double="75" triple="8" hr="80" tb="776" slug=" .499" bb="257" hbp="72" k="427" gdp="32" onbase=" .405" sac="6" sf="24"/>
+      <hsituation context="as leadoff" avg=" .286" ab="455" h="130" rbi="38" double="17" triple="2" hr="38" tb="265" slug=" .582" bb="68" hbp="22" k="119" gdp="0" onbase=" .404" sac="0" sf="0"/>
+      <hsituation context="with runners" avg=" .293" ab="1085" h="318" rbi="393" double="54" triple="4" hr="58" tb="554" slug=" .511" bb="181" hbp="59" k="291" gdp="43" onbase=" .413" sac="12" sf="26"/>
+      <hsituation context="w/runners &amp; 2-out" avg=" .248" ab="435" h="108" rbi="137" double="20" triple="2" hr="19" tb="189" slug=" .434" bb="75" hbp="28" k="121" gdp="0" onbase=" .392" sac="0" sf="0"/>
+      <hsituation context="rnrs in scoring pos" avg=" .294" ab="653" h="192" rbi="343" double="34" triple="3" hr="36" tb="340" slug=" .521" bb="130" hbp="34" k="176" gdp="17" onbase=" .422" sac="8" sf="26"/>
+      <hsituation context="scoring pos &amp; 2-out" avg=" .249" ab="297" h="74" rbi="116" double="13" triple="2" hr="11" tb="124" slug=" .418" bb="58" hbp="16" k="80" gdp="0" onbase=" .399" sac="0" sf="0"/>
+      <hsituation context="bases empty" avg=" .281" ab="1083" h="304" rbi="66" double="48" triple="6" hr="66" tb="562" slug=" .519" bb="164" hbp="41" k="320" gdp="0" onbase=" .395" sac="0" sf="0"/>
+      <hsituation context="bases loaded" avg=" .284" ab="88" h="25" rbi="98" double="6" triple="0" hr="3" tb="40" slug=" .455" bb="19" hbp="8" k="28" gdp="7" onbase=" .406" sac="0" sf="13"/>
+      <hsituation context="pinch-hitting" avg=" .241" ab="54" h="13" rbi="11" double="2" triple="0" hr="3" tb="24" slug=" .444" bb="6" hbp="2" k="19" gdp="1" onbase=" .339" sac="1" sf="0"/>
+    </player>
+  </hsituations>
+  <psituations tmid="OM" generated="2/17/2026">
+    <player name="Hudson Calhoun">
+      <psituation context="vs left" avg=" .132" ab="38" h="5" bf="46" bb="6" so="17" double="0" triple="0" hr="2" hbp="2" wp="0" bk="1" sac="0" sf="0" gdp="1" fo="9" go="5" bbpg=" 4.9" sopg="13.9"/>
+      <psituation context="vs right" avg=" .200" ab="50" h="10" bf="66" bb="12" so="20" double="5" triple="0" hr="2" hbp="2" wp="1" bk="0" sac="2" sf="0" gdp="0" fo="13" go="6" bbpg=" 7.9" sopg="13.2"/>
+      <psituation context="vs leadoff" avg=" .105" ab="19" h="2" bf="24" bb="2" so="10" double="0" triple="0" hr="1" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="6" go="0" bbpg=" 3.4" sopg="16.9"/>
+      <psituation context="with runners" avg=" .250" ab="44" h="11" bf="55" bb="8" so="15" double="4" triple="0" hr="2" hbp="1" wp="1" bk="1" sac="2" sf="0" gdp="1" fo="12" go="5" bbpg=" 6.0" sopg="11.2"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .235" ab="17" h="4" bf="23" bb="5" so="6" double="2" triple="0" hr="0" hbp="1" wp="1" bk="1" sac="0" sf="0" gdp="0" fo="4" go="2" bbpg="10.4" sopg="12.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .259" ab="27" h="7" bf="37" bb="7" so="8" double="3" triple="0" hr="2" hbp="1" wp="1" bk="1" sac="2" sf="0" gdp="1" fo="7" go="5" bbpg=" 8.6" sopg=" 9.8"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .167" ab="12" h="2" bf="18" bb="5" so="3" double="1" triple="0" hr="0" hbp="1" wp="1" bk="1" sac="0" sf="0" gdp="0" fo="4" go="2" bbpg="13.5" sopg=" 8.1"/>
+      <psituation context="bases empty" avg=" .091" ab="44" h="4" bf="57" bb="10" so="22" double="1" triple="0" hr="2" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="10" go="6" bbpg=" 7.1" sopg="15.6"/>
+      <psituation context="bases loaded" avg=" .375" ab="8" h="3" bf="10" bb="1" so="1" double="1" triple="0" hr="1" hbp="0" wp="0" bk="1" sac="1" sf="0" gdp="0" fo="3" go="0" bbpg=" 6.8" sopg=" 6.8"/>
+    </player>
+    <player name="Alex Canney">
+      <psituation context="vs left" avg=" .314" ab="35" h="11" bf="45" bb="5" so="11" double="1" triple="1" hr="0" hbp="4" wp="2" bk="0" sac="1" sf="0" gdp="1" fo="5" go="7" bbpg=" 5.6" sopg="12.4"/>
+      <psituation context="vs right" avg=" .333" ab="42" h="14" bf="51" bb="5" so="11" double="5" triple="0" hr="0" hbp="3" wp="0" bk="0" sac="1" sf="0" gdp="0" fo="10" go="8" bbpg=" 4.7" sopg="10.2"/>
+      <psituation context="vs leadoff" avg=" .273" ab="11" h="3" bf="14" bb="1" so="3" double="1" triple="0" hr="0" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="2" bbpg=" 3.9" sopg="11.6"/>
+      <psituation context="with runners" avg=" .339" ab="56" h="19" bf="68" bb="8" so="15" double="5" triple="1" hr="0" hbp="2" wp="2" bk="0" sac="2" sf="0" gdp="1" fo="10" go="13" bbpg=" 5.5" sopg="10.4"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .273" ab="22" h="6" bf="25" bb="3" so="6" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="3" go="7" bbpg=" 5.1" sopg="10.1"/>
+      <psituation context="rnrs in scoring pos" avg=" .262" ab="42" h="11" bf="51" bb="6" so="14" double="2" triple="1" hr="0" hbp="2" wp="0" bk="0" sac="1" sf="0" gdp="0" fo="8" go="9" bbpg=" 5.2" sopg="12.2"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .235" ab="17" h="4" bf="20" bb="3" so="6" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="5" bbpg=" 6.2" sopg="12.5"/>
+      <psituation context="bases empty" avg=" .286" ab="21" h="6" bf="28" bb="2" so="7" double="1" triple="0" hr="0" hbp="5" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="5" go="2" bbpg=" 3.9" sopg="13.5"/>
+      <psituation context="bases loaded" avg=" .500" ab="6" h="3" bf="7" bb="1" so="2" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg=" 9.0" sopg="18.0"/>
+    </player>
+    <player name="Gunnar Dennis">
+      <psituation context="vs left" avg=" .318" ab="44" h="14" bf="57" bb="12" so="11" double="3" triple="1" hr="0" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="1" fo="10" go="8" bbpg="10.8" sopg=" 9.9"/>
+      <psituation context="vs right" avg=" .278" ab="72" h="20" bf="79" bb="4" so="21" double="2" triple="0" hr="3" hbp="2" wp="1" bk="0" sac="0" sf="1" gdp="3" fo="17" go="15" bbpg=" 1.9" sopg=" 9.9"/>
+      <psituation context="vs leadoff" avg=" .250" ab="28" h="7" bf="32" bb="2" so="9" double="2" triple="0" hr="1" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="5" go="7" bbpg=" 2.6" sopg="11.6"/>
+      <psituation context="with runners" avg=" .302" ab="53" h="16" bf="62" bb="8" so="13" double="2" triple="1" hr="2" hbp="0" wp="1" bk="0" sac="0" sf="1" gdp="4" fo="14" go="10" bbpg=" 5.1" sopg=" 8.4"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .240" ab="25" h="6" bf="29" bb="4" so="6" double="0" triple="1" hr="1" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="8" go="5" bbpg=" 5.7" sopg=" 8.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .267" ab="30" h="8" bf="36" bb="5" so="8" double="1" triple="0" hr="1" hbp="0" wp="0" bk="0" sac="0" sf="1" gdp="2" fo="8" go="6" bbpg=" 5.6" sopg=" 9.0"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .250" ab="16" h="4" bf="19" bb="3" so="3" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="5" go="3" bbpg=" 7.4" sopg=" 7.4"/>
+      <psituation context="bases empty" avg=" .286" ab="63" h="18" bf="74" bb="8" so="19" double="3" triple="0" hr="1" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="13" go="13" bbpg=" 4.8" sopg="11.4"/>
+      <psituation context="bases loaded" avg=" .500" ab="2" h="1" bf="2" bb="0" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="1" go="0" bbpg=" 0.0" sopg=" 0.0"/>
+    </player>
+    <player name="Hunter Elliott">
+      <psituation context="vs left" avg=" .170" ab="100" h="17" bf="122" bb="14" so="31" double="3" triple="0" hr="2" hbp="7" wp="0" bk="0" sac="1" sf="0" gdp="2" fo="26" go="25" bbpg=" 4.2" sopg=" 9.3"/>
+      <psituation context="vs right" avg=" .211" ab="199" h="42" bf="239" bb="26" so="71" double="9" triple="2" hr="2" hbp="8" wp="2" bk="0" sac="5" sf="1" gdp="1" fo="50" go="36" bbpg=" 4.2" sopg="11.5"/>
+      <psituation context="vs leadoff" avg=" .289" ab="76" h="22" bf="90" bb="12" so="24" double="7" triple="1" hr="1" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="18" go="12" bbpg=" 6.0" sopg="12.0"/>
+      <psituation context="with runners" avg=" .145" ab="131" h="19" bf="161" bb="14" so="44" double="2" triple="1" hr="1" hbp="9" wp="2" bk="0" sac="6" sf="1" gdp="3" fo="36" go="33" bbpg=" 2.9" sopg=" 9.1"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .115" ab="52" h="6" bf="66" bb="8" so="14" double="1" triple="1" hr="0" hbp="6" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="16" go="14" bbpg=" 4.6" sopg=" 8.0"/>
+      <psituation context="rnrs in scoring pos" avg=" .169" ab="77" h="13" bf="97" bb="7" so="26" double="2" triple="0" hr="1" hbp="6" wp="0" bk="0" sac="6" sf="1" gdp="2" fo="20" go="20" bbpg=" 2.6" sopg=" 9.8"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .129" ab="31" h="4" bf="39" bb="3" so="10" double="1" triple="0" hr="0" hbp="5" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="9" go="6" bbpg=" 3.1" sopg="10.4"/>
+      <psituation context="bases empty" avg=" .238" ab="168" h="40" bf="200" bb="26" so="58" double="10" triple="1" hr="3" hbp="6" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="40" go="28" bbpg=" 5.6" sopg="12.4"/>
+      <psituation context="bases loaded" avg=" .125" ab="8" h="1" bf="11" bb="1" so="1" double="0" triple="0" hr="0" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="1" fo="2" go="4" bbpg=" 3.4" sopg=" 3.4"/>
+    </player>
+    <player name="Patrick Galle">
+      <psituation context="vs left" avg=" .615" ab="13" h="8" bf="17" bb="1" so="2" double="1" triple="0" hr="1" hbp="1" wp="1" bk="0" sac="0" sf="2" gdp="0" fo="4" go="1" bbpg=" 3.9" sopg=" 7.7"/>
+      <psituation context="vs right" avg=" .278" ab="18" h="5" bf="19" bb="1" so="7" double="2" triple="0" hr="0" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="5" go="1" bbpg=" 1.9" sopg="13.5"/>
+      <psituation context="vs leadoff" avg=" .500" ab="4" h="2" bf="5" bb="1" so="0" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="0" bbpg="13.5" sopg=" 0.0"/>
+      <psituation context="with runners" avg=" .381" ab="21" h="8" bf="25" bb="1" so="8" double="2" triple="0" hr="0" hbp="1" wp="3" bk="0" sac="0" sf="2" gdp="0" fo="6" go="1" bbpg=" 1.7" sopg="13.5"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .545" ab="11" h="6" bf="12" bb="0" so="3" double="2" triple="0" hr="0" hbp="1" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="2" go="0" bbpg=" 0.0" sopg="13.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .286" ab="14" h="4" bf="18" bb="1" so="6" double="1" triple="0" hr="0" hbp="1" wp="2" bk="0" sac="0" sf="2" gdp="0" fo="5" go="1" bbpg=" 2.2" sopg="13.5"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .500" ab="8" h="4" bf="9" bb="0" so="2" double="1" triple="0" hr="0" hbp="1" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="2" go="0" bbpg=" 0.0" sopg="13.5"/>
+      <psituation context="bases empty" avg=" .500" ab="10" h="5" bf="11" bb="1" so="1" double="1" triple="0" hr="1" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="3" go="1" bbpg=" 5.4" sopg=" 5.4"/>
+      <psituation context="bases loaded" avg=" .000" ab="1" h="0" bf="2" bb="0" so="0" double="0" triple="0" hr="0" hbp="0" wp="1" bk="0" sac="0" sf="1" gdp="0" fo="2" go="0" bbpg=" 0.0" sopg=" 0.0"/>
+    </player>
+    <player name="Owen Hancock">
+      <psituation context="vs left" avg=" .500" ab="2" h="1" bf="4" bb="2" so="1" double="0" triple="0" hr="1" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="54.0" sopg="27.0"/>
+      <psituation context="vs right" avg=" .100" ab="10" h="1" bf="12" bb="2" so="4" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="1" go="4" bbpg=" 6.0" sopg="12.0"/>
+      <psituation context="vs leadoff" avg=" .333" ab="3" h="1" bf="4" bb="1" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="2" bbpg="13.5" sopg=" 0.0"/>
+      <psituation context="with runners" avg=" .167" ab="6" h="1" bf="7" bb="1" so="3" double="0" triple="0" hr="1" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="1" go="1" bbpg=" 5.4" sopg="16.2"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .000" ab="2" h="0" bf="3" bb="1" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg="13.5" sopg="13.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .000" ab="1" h="0" bf="1" bb="0" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg=" 0.0" sopg=" 0.0"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .000" ab="1" h="0" bf="1" bb="0" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg=" 0.0" sopg=" 0.0"/>
+      <psituation context="bases empty" avg=" .167" ab="6" h="1" bf="9" bb="3" so="2" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="3" bbpg="16.2" sopg="10.8"/>
+    </player>
+    <player name="Walker Hooks">
+      <psituation context="vs left" avg=" .317" ab="63" h="20" bf="70" bb="6" so="19" double="4" triple="0" hr="2" hbp="1" wp="2" bk="1" sac="0" sf="0" gdp="0" fo="11" go="12" bbpg=" 3.8" sopg="11.9"/>
+      <psituation context="vs right" avg=" .264" ab="87" h="23" bf="99" bb="6" so="24" double="4" triple="0" hr="3" hbp="2" wp="2" bk="0" sac="4" sf="0" gdp="1" fo="17" go="23" bbpg=" 2.3" sopg=" 9.4"/>
+      <psituation context="vs leadoff" avg=" .206" ab="34" h="7" bf="37" bb="3" so="8" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="8" go="8" bbpg=" 3.4" sopg=" 9.0"/>
+      <psituation context="with runners" avg=" .310" ab="71" h="22" bf="81" bb="5" so="22" double="5" triple="0" hr="3" hbp="1" wp="4" bk="1" sac="4" sf="0" gdp="1" fo="9" go="21" bbpg=" 2.3" sopg="10.2"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .233" ab="30" h="7" bf="32" bb="2" so="10" double="2" triple="0" hr="2" hbp="0" wp="0" bk="1" sac="0" sf="0" gdp="0" fo="3" go="10" bbpg=" 2.3" sopg="11.7"/>
+      <psituation context="rnrs in scoring pos" avg=" .225" ab="40" h="9" bf="47" bb="3" so="16" double="2" triple="0" hr="0" hbp="1" wp="2" bk="0" sac="3" sf="0" gdp="1" fo="5" go="13" bbpg=" 2.3" sopg="12.3"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .158" ab="19" h="3" bf="20" bb="1" so="8" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="6" bbpg=" 1.7" sopg="13.5"/>
+      <psituation context="bases empty" avg=" .266" ab="79" h="21" bf="88" bb="7" so="21" double="3" triple="0" hr="2" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="19" go="14" bbpg=" 3.5" sopg="10.5"/>
+      <psituation context="bases loaded" avg=" .000" ab="9" h="0" bf="10" bb="1" so="5" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="1" go="3" bbpg=" 3.0" sopg="15.0"/>
+    </player>
+    <player name="Cooper Johnson">
+      <psituation context="vs left" avg=" .000" ab="3" h="0" bf="5" bb="1" so="1" double="0" triple="0" hr="0" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="2" bbpg=" 9.0" sopg=" 9.0"/>
+      <psituation context="vs right" avg=" .500" ab="12" h="6" bf="15" bb="1" so="2" double="1" triple="0" hr="0" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="1" bbpg=" 3.9" sopg=" 7.7"/>
+      <psituation context="vs leadoff" avg="1.000" ab="1" h="1" bf="4" bb="1" so="0" double="0" triple="0" hr="0" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="99.0" sopg=" 0.0"/>
+      <psituation context="with runners" avg=" .308" ab="13" h="4" bf="15" bb="1" so="3" double="1" triple="0" hr="0" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="3" bbpg=" 2.7" sopg=" 8.1"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .000" ab="2" h="0" bf="2" bb="0" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg=" 0.0" sopg="13.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .250" ab="8" h="2" bf="10" bb="1" so="3" double="0" triple="0" hr="0" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="1" go="1" bbpg=" 4.5" sopg="13.5"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .000" ab="1" h="0" bf="1" bb="0" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg=" 0.0" sopg="27.0"/>
+      <psituation context="bases empty" avg="1.000" ab="2" h="2" bf="5" bb="1" so="0" double="0" triple="0" hr="0" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="99.0" sopg=" 0.0"/>
+      <psituation context="bases loaded" avg=" .000" ab="3" h="0" bf="3" bb="0" so="2" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg=" 0.0" sopg="13.5"/>
+    </player>
+    <player name="Brayden Jones">
+      <psituation context="vs left" avg=" .364" ab="33" h="12" bf="35" bb="1" so="10" double="3" triple="0" hr="2" hbp="1" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="4" go="6" bbpg=" 1.4" sopg="13.5"/>
+      <psituation context="vs right" avg=" .261" ab="46" h="12" bf="52" bb="5" so="20" double="1" triple="0" hr="1" hbp="0" wp="0" bk="0" sac="1" sf="0" gdp="0" fo="6" go="8" bbpg=" 4.0" sopg="15.9"/>
+      <psituation context="vs leadoff" avg=" .125" ab="16" h="2" bf="18" bb="1" so="9" double="2" triple="0" hr="0" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="3" go="2" bbpg=" 1.9" sopg="17.4"/>
+      <psituation context="with runners" avg=" .378" ab="37" h="14" bf="42" bb="4" so="10" double="1" triple="0" hr="2" hbp="0" wp="2" bk="0" sac="1" sf="0" gdp="0" fo="4" go="8" bbpg=" 4.9" sopg="12.3"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .375" ab="16" h="6" bf="17" bb="1" so="6" double="1" triple="0" hr="1" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="1" go="2" bbpg=" 3.0" sopg="18.0"/>
+      <psituation context="rnrs in scoring pos" avg=" .400" ab="30" h="12" bf="32" bb="2" so="8" double="1" triple="0" hr="1" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="3" go="6" bbpg=" 3.2" sopg="12.7"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .462" ab="13" h="6" bf="14" bb="1" so="5" double="1" triple="0" hr="1" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="0" go="2" bbpg=" 3.9" sopg="19.3"/>
+      <psituation context="bases empty" avg=" .238" ab="42" h="10" bf="45" bb="2" so="20" double="3" triple="0" hr="1" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="6" go="6" bbpg=" 1.7" sopg="16.9"/>
+      <psituation context="bases loaded" avg=" .286" ab="7" h="2" bf="8" bb="1" so="2" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="1" go="1" bbpg=" 6.8" sopg="13.5"/>
+    </player>
+    <player name="Cole Ketchum">
+      <psituation context="vs left" avg="1.000" ab="1" h="1" bf="2" bb="1" so="0" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="99.0" sopg=" 0.0"/>
+      <psituation context="vs right" avg=" .250" ab="4" h="1" bf="5" bb="1" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="2" bbpg=" 9.0" sopg=" 9.0"/>
+      <psituation context="vs leadoff" avg="1.000" ab="1" h="1" bf="1" bb="0" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg=" 0.0" sopg=" 0.0"/>
+      <psituation context="with runners" avg=" .333" ab="3" h="1" bf="5" bb="2" so="0" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="2" bbpg="27.0" sopg=" 0.0"/>
+      <psituation context="rnrs in scoring pos" avg=" .333" ab="3" h="1" bf="5" bb="2" so="0" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="2" bbpg="27.0" sopg=" 0.0"/>
+      <psituation context="bases empty" avg=" .500" ab="2" h="1" bf="2" bb="0" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg=" 0.0" sopg="27.0"/>
+      <psituation context="bases loaded" avg=" .000" ab="0" h="0" bf="1" bb="1" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="99.0" sopg=" 0.0"/>
+    </player>
+    <player name="Riley Maddox">
+      <psituation context="vs left" avg=" .240" ab="150" h="36" bf="170" bb="14" so="36" double="8" triple="1" hr="5" hbp="5" wp="4" bk="0" sac="1" sf="0" gdp="3" fo="46" go="31" bbpg=" 3.2" sopg=" 8.3"/>
+      <psituation context="vs right" avg=" .287" ab="122" h="35" bf="143" bb="16" so="33" double="5" triple="1" hr="6" hbp="2" wp="1" bk="0" sac="0" sf="3" gdp="1" fo="22" go="34" bbpg=" 4.7" sopg=" 9.7"/>
+      <psituation context="vs leadoff" avg=" .262" ab="65" h="17" bf="77" bb="8" so="11" double="3" triple="0" hr="3" hbp="4" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="22" go="15" bbpg=" 4.5" sopg=" 6.2"/>
+      <psituation context="with runners" avg=" .264" ab="121" h="32" bf="138" bb="11" so="29" double="5" triple="1" hr="3" hbp="2" wp="5" bk="0" sac="1" sf="3" gdp="4" fo="31" go="31" bbpg=" 3.0" sopg=" 8.0"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .191" ab="47" h="9" bf="50" bb="3" so="12" double="1" triple="1" hr="0" hbp="0" wp="3" bk="0" sac="0" sf="0" gdp="0" fo="14" go="10" bbpg=" 2.2" sopg=" 8.8"/>
+      <psituation context="rnrs in scoring pos" avg=" .239" ab="71" h="17" bf="84" bb="8" so="17" double="3" triple="1" hr="2" hbp="2" wp="4" bk="0" sac="0" sf="3" gdp="0" fo="19" go="19" bbpg=" 3.9" sopg=" 8.2"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .121" ab="33" h="4" bf="35" bb="2" so="10" double="0" triple="1" hr="0" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="9" go="8" bbpg=" 1.9" sopg=" 9.6"/>
+      <psituation context="bases empty" avg=" .258" ab="151" h="39" bf="175" bb="19" so="40" double="8" triple="1" hr="8" hbp="5" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="37" go="34" bbpg=" 4.6" sopg=" 9.7"/>
+      <psituation context="bases loaded" avg=" .500" ab="6" h="3" bf="7" bb="0" so="0" double="1" triple="1" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="1" gdp="0" fo="2" go="2" bbpg=" 0.0" sopg=" 0.0"/>
+    </player>
+    <player name="Will McCausland">
+      <psituation context="vs left" avg=" .253" ab="79" h="20" bf="92" bb="9" so="26" double="2" triple="1" hr="2" hbp="2" wp="0" bk="0" sac="0" sf="2" gdp="1" fo="17" go="15" bbpg=" 3.9" sopg="11.3"/>
+      <psituation context="vs right" avg=" .262" ab="84" h="22" bf="88" bb="2" so="29" double="3" triple="0" hr="3" hbp="1" wp="4" bk="0" sac="1" sf="0" gdp="2" fo="14" go="18" bbpg=" 0.9" sopg="12.4"/>
+      <psituation context="vs leadoff" avg=" .278" ab="36" h="10" bf="40" bb="3" so="15" double="0" triple="0" hr="2" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="5" go="5" bbpg=" 3.2" sopg="16.2"/>
+      <psituation context="with runners" avg=" .299" ab="77" h="23" bf="86" bb="6" so="24" double="3" triple="0" hr="0" hbp="0" wp="4" bk="0" sac="1" sf="2" gdp="3" fo="15" go="15" bbpg=" 2.7" sopg="10.8"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .179" ab="28" h="5" bf="32" bb="4" so="10" double="1" triple="0" hr="0" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="8" go="4" bbpg=" 4.7" sopg="11.7"/>
+      <psituation context="rnrs in scoring pos" avg=" .275" ab="40" h="11" bf="48" bb="5" so="14" double="0" triple="0" hr="0" hbp="0" wp="3" bk="0" sac="1" sf="2" gdp="2" fo="7" go="9" bbpg=" 4.1" sopg="11.5"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .100" ab="20" h="2" bf="24" bb="4" so="9" double="0" triple="0" hr="0" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="4" go="4" bbpg=" 6.4" sopg="14.3"/>
+      <psituation context="bases empty" avg=" .221" ab="86" h="19" bf="94" bb="5" so="31" double="2" triple="1" hr="5" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="16" go="18" bbpg=" 2.1" sopg="12.9"/>
+      <psituation context="bases loaded" avg=" .000" ab="5" h="0" bf="5" bb="0" so="3" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="1" fo="0" go="2" bbpg=" 0.0" sopg="13.5"/>
+    </player>
+    <player name="Mason Morris">
+      <psituation context="vs left" avg=" .223" ab="103" h="23" bf="112" bb="8" so="38" double="5" triple="2" hr="4" hbp="1" wp="2" bk="0" sac="0" sf="0" gdp="2" fo="17" go="25" bbpg=" 2.7" sopg="12.7"/>
+      <psituation context="vs right" avg=" .216" ab="102" h="22" bf="117" bb="13" so="40" double="3" triple="0" hr="2" hbp="1" wp="4" bk="1" sac="0" sf="1" gdp="2" fo="13" go="28" bbpg=" 4.2" sopg="13.0"/>
+      <psituation context="vs leadoff" avg=" .229" ab="48" h="11" bf="51" bb="2" so="15" double="1" triple="0" hr="1" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="7" go="15" bbpg=" 1.5" sopg="10.9"/>
+      <psituation context="with runners" avg=" .196" ab="92" h="18" bf="106" bb="12" so="41" double="3" triple="2" hr="2" hbp="1" wp="6" bk="1" sac="0" sf="1" gdp="4" fo="14" go="21" bbpg=" 4.1" sopg="14.0"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .158" ab="38" h="6" bf="42" bb="4" so="16" double="0" triple="2" hr="0" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="7" go="10" bbpg=" 3.3" sopg="13.1"/>
+      <psituation context="rnrs in scoring pos" avg=" .158" ab="57" h="9" bf="63" bb="5" so="26" double="1" triple="0" hr="0" hbp="0" wp="3" bk="0" sac="0" sf="1" gdp="1" fo="9" go="15" bbpg=" 2.7" sopg="14.0"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .111" ab="27" h="3" bf="29" bb="2" so="12" double="0" triple="0" hr="0" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="5" go="8" bbpg=" 2.2" sopg="13.0"/>
+      <psituation context="bases empty" avg=" .239" ab="113" h="27" bf="123" bb="9" so="37" double="5" triple="0" hr="4" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="16" go="32" bbpg=" 2.9" sopg="11.8"/>
+      <psituation context="bases loaded" avg=" .200" ab="5" h="1" bf="6" bb="0" so="2" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="1" gdp="0" fo="1" go="2" bbpg=" 0.0" sopg="10.8"/>
+    </player>
+    <player name="Mason Nichols">
+      <psituation context="vs left" avg=" .274" ab="113" h="31" bf="136" bb="17" so="36" double="4" triple="1" hr="6" hbp="4" wp="5" bk="2" sac="0" sf="2" gdp="1" fo="32" go="15" bbpg=" 5.4" sopg="11.4"/>
+      <psituation context="vs right" avg=" .283" ab="99" h="28" bf="114" bb="9" so="20" double="3" triple="0" hr="3" hbp="2" wp="3" bk="1" sac="4" sf="0" gdp="3" fo="28" go="22" bbpg=" 3.2" sopg=" 7.2"/>
+      <psituation context="vs leadoff" avg=" .245" ab="53" h="13" bf="58" bb="3" so="18" double="4" triple="1" hr="3" hbp="2" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="10" go="10" bbpg=" 2.1" sopg="12.8"/>
+      <psituation context="with runners" avg=" .272" ab="92" h="25" bf="116" bb="15" so="24" double="1" triple="0" hr="4" hbp="3" wp="8" bk="3" sac="4" sf="2" gdp="4" fo="27" go="19" bbpg=" 5.3" sopg=" 8.4"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .317" ab="41" h="13" bf="52" bb="9" so="11" double="0" triple="0" hr="2" hbp="2" wp="7" bk="1" sac="0" sf="0" gdp="0" fo="11" go="4" bbpg=" 9.0" sopg="11.0"/>
+      <psituation context="rnrs in scoring pos" avg=" .288" ab="59" h="17" bf="75" bb="11" so="16" double="0" triple="0" hr="2" hbp="3" wp="2" bk="2" sac="0" sf="2" gdp="2" fo="18" go="9" bbpg=" 6.3" sopg=" 9.2"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .367" ab="30" h="11" bf="38" bb="6" so="9" double="0" triple="0" hr="2" hbp="2" wp="2" bk="1" sac="0" sf="0" gdp="0" fo="7" go="2" bbpg=" 8.5" sopg="12.8"/>
+      <psituation context="bases empty" avg=" .283" ab="120" h="34" bf="134" bb="11" so="32" double="6" triple="1" hr="5" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="33" go="18" bbpg=" 3.6" sopg="10.4"/>
+      <psituation context="bases loaded" avg=" .333" ab="3" h="1" bf="4" bb="0" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="1" gdp="0" fo="2" go="0" bbpg=" 0.0" sopg=" 6.8"/>
+    </player>
+    <player name="Taylor Rabe">
+      <psituation context="vs left" avg=" .346" ab="26" h="9" bf="32" bb="1" so="4" double="4" triple="0" hr="0" hbp="5" wp="1" bk="0" sac="0" sf="0" gdp="2" fo="5" go="7" bbpg=" 1.4" sopg=" 5.7"/>
+      <psituation context="vs right" avg=" .302" ab="43" h="13" bf="47" bb="1" so="4" double="1" triple="0" hr="3" hbp="1" wp="1" bk="0" sac="0" sf="2" gdp="0" fo="9" go="16" bbpg=" 0.9" sopg=" 3.6"/>
+      <psituation context="vs leadoff" avg=" .417" ab="12" h="5" bf="14" bb="1" so="1" double="0" triple="0" hr="2" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="4" bbpg=" 3.9" sopg=" 3.9"/>
+      <psituation context="with runners" avg=" .300" ab="40" h="12" bf="46" bb="1" so="3" double="4" triple="0" hr="0" hbp="3" wp="2" bk="0" sac="0" sf="2" gdp="2" fo="10" go="13" bbpg=" 0.9" sopg=" 2.7"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .412" ab="17" h="7" bf="18" bb="0" so="1" double="4" triple="0" hr="0" hbp="1" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="3" go="6" bbpg=" 0.0" sopg=" 2.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .346" ab="26" h="9" bf="31" bb="1" so="1" double="2" triple="0" hr="0" hbp="2" wp="2" bk="0" sac="0" sf="2" gdp="1" fo="7" go="9" bbpg=" 1.4" sopg=" 1.4"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .385" ab="13" h="5" bf="13" bb="0" so="0" double="2" triple="0" hr="0" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="2" go="6" bbpg=" 0.0" sopg=" 0.0"/>
+      <psituation context="bases empty" avg=" .345" ab="29" h="10" bf="33" bb="1" so="5" double="1" triple="0" hr="3" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="4" go="10" bbpg=" 1.4" sopg=" 7.1"/>
+      <psituation context="bases loaded" avg=" .667" ab="3" h="2" bf="4" bb="0" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="1" gdp="0" fo="1" go="0" bbpg=" 0.0" sopg="13.5"/>
+    </player>
+    <player name="Ryne Rodriguez">
+      <psituation context="vs left" avg=" .306" ab="36" h="11" bf="45" bb="1" so="10" double="3" triple="0" hr="1" hbp="4" wp="1" bk="1" sac="2" sf="2" gdp="0" fo="8" go="10" bbpg=" 0.9" sopg=" 9.3"/>
+      <psituation context="vs right" avg=" .238" ab="21" h="5" bf="27" bb="5" so="6" double="2" triple="0" hr="0" hbp="0" wp="1" bk="0" sac="0" sf="1" gdp="0" fo="5" go="5" bbpg=" 8.4" sopg="10.1"/>
+      <psituation context="vs leadoff" avg=" .083" ab="12" h="1" bf="14" bb="2" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="3" go="7" bbpg=" 4.9" sopg=" 2.5"/>
+      <psituation context="with runners" avg=" .297" ab="37" h="11" bf="47" bb="4" so="14" double="4" triple="0" hr="1" hbp="1" wp="2" bk="1" sac="2" sf="3" gdp="0" fo="9" go="6" bbpg=" 3.6" sopg="12.6"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .231" ab="13" h="3" bf="15" bb="2" so="4" double="1" triple="0" hr="1" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="2" go="4" bbpg=" 4.9" sopg=" 9.8"/>
+      <psituation context="rnrs in scoring pos" avg=" .348" ab="23" h="8" bf="29" bb="1" so="7" double="2" triple="0" hr="0" hbp="1" wp="1" bk="0" sac="1" sf="3" gdp="0" fo="7" go="5" bbpg=" 1.4" sopg=" 9.9"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .222" ab="9" h="2" bf="10" bb="1" so="2" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="2" go="3" bbpg=" 3.4" sopg=" 6.8"/>
+      <psituation context="bases empty" avg=" .250" ab="20" h="5" bf="25" bb="2" so="2" double="1" triple="0" hr="0" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="4" go="9" bbpg=" 3.6" sopg=" 3.6"/>
+      <psituation context="bases loaded" avg=" .000" ab="1" h="0" bf="2" bb="0" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="1" gdp="0" fo="2" go="0" bbpg=" 0.0" sopg=" 0.0"/>
+    </player>
+    <player name="Connor Spencer">
+      <psituation context="vs left" avg=" .182" ab="44" h="8" bf="50" bb="5" so="8" double="3" triple="0" hr="1" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="12" go="12" bbpg=" 4.2" sopg=" 6.8"/>
+      <psituation context="vs right" avg=" .170" ab="47" h="8" bf="54" bb="5" so="19" double="2" triple="0" hr="2" hbp="0" wp="0" bk="0" sac="1" sf="1" gdp="1" fo="12" go="10" bbpg=" 3.2" sopg="12.2"/>
+      <psituation context="vs leadoff" avg=" .053" ab="19" h="1" bf="20" bb="1" so="9" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="4" go="3" bbpg=" 1.7" sopg="15.2"/>
+      <psituation context="with runners" avg=" .200" ab="40" h="8" bf="51" bb="8" so="10" double="3" triple="0" hr="2" hbp="1" wp="0" bk="0" sac="1" sf="1" gdp="1" fo="14" go="9" bbpg=" 6.4" sopg=" 7.9"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .217" ab="23" h="5" bf="26" bb="3" so="6" double="2" triple="0" hr="2" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="8" go="3" bbpg=" 4.8" sopg=" 9.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .176" ab="34" h="6" bf="42" bb="5" so="10" double="2" triple="0" hr="2" hbp="1" wp="0" bk="0" sac="1" sf="1" gdp="1" fo="13" go="6" bbpg=" 4.5" sopg=" 9.0"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .250" ab="20" h="5" bf="23" bb="3" so="6" double="2" triple="0" hr="2" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="7" go="1" bbpg=" 5.8" sopg="11.6"/>
+      <psituation context="bases empty" avg=" .157" ab="51" h="8" bf="53" bb="2" so="17" double="2" triple="0" hr="1" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="10" go="13" bbpg=" 1.4" sopg="11.5"/>
+      <psituation context="bases loaded" avg=" .125" ab="8" h="1" bf="8" bb="0" so="4" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="1" fo="1" go="2" bbpg=" 0.0" sopg="13.5"/>
+    </player>
+    <player name="Sam Tookoian">
+      <psituation context="vs left" avg=" .222" ab="9" h="2" bf="11" bb="2" so="6" double="1" triple="0" hr="0" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg=" 9.0" sopg="27.0"/>
+      <psituation context="vs right" avg=" .250" ab="4" h="1" bf="7" bb="3" so="3" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="27.0" sopg="27.0"/>
+      <psituation context="vs leadoff" avg=" .500" ab="2" h="1" bf="3" bb="1" so="1" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="27.0" sopg="27.0"/>
+      <psituation context="with runners" avg=" .222" ab="9" h="2" bf="13" bb="4" so="6" double="2" triple="0" hr="0" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg="18.0" sopg="27.0"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .000" ab="3" h="0" bf="3" bb="0" so="3" double="0" triple="0" hr="0" hbp="0" wp="1" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg=" 0.0" sopg="40.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .200" ab="5" h="1" bf="8" bb="3" so="3" double="1" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="1" bbpg="20.2" sopg="20.2"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .000" ab="2" h="0" bf="2" bb="0" so="2" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg=" 0.0" sopg="27.0"/>
+      <psituation context="bases empty" avg=" .250" ab="4" h="1" bf="5" bb="1" so="3" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg=" 9.0" sopg="27.0"/>
+      <psituation context="bases loaded" avg=" .000" ab="0" h="0" bf="1" bb="1" so="0" double="0" triple="0" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="0" go="0" bbpg="99.0" sopg=" 0.0"/>
+    </player>
+    <player name="Cade Townsend">
+      <psituation context="vs left" avg=" .200" ab="40" h="8" bf="50" bb="7" so="21" double="2" triple="2" hr="1" hbp="1" wp="2" bk="0" sac="0" sf="1" gdp="0" fo="8" go="4" bbpg=" 5.7" sopg="17.2"/>
+      <psituation context="vs right" avg=" .241" ab="83" h="20" bf="103" bb="13" so="22" double="7" triple="0" hr="3" hbp="5" wp="5" bk="0" sac="1" sf="1" gdp="3" fo="20" go="19" bbpg=" 5.1" sopg=" 8.6"/>
+      <psituation context="vs leadoff" avg=" .214" ab="28" h="6" bf="38" bb="7" so="10" double="1" triple="0" hr="0" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="9" go="3" bbpg=" 8.6" sopg="12.3"/>
+      <psituation context="with runners" avg=" .241" ab="54" h="13" bf="68" bb="9" so="21" double="4" triple="1" hr="3" hbp="1" wp="7" bk="0" sac="1" sf="2" gdp="3" fo="10" go="11" bbpg=" 4.8" sopg="11.1"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .222" ab="18" h="4" bf="20" bb="1" so="7" double="1" triple="1" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="4" go="3" bbpg=" 1.7" sopg="11.8"/>
+      <psituation context="rnrs in scoring pos" avg=" .226" ab="31" h="7" bf="39" bb="6" so="12" double="1" triple="1" hr="1" hbp="0" wp="4" bk="0" sac="0" sf="2" gdp="0" fo="9" go="4" bbpg=" 6.0" sopg="12.0"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .308" ab="13" h="4" bf="14" bb="1" so="4" double="1" triple="1" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="4" go="1" bbpg=" 2.5" sopg=" 9.8"/>
+      <psituation context="bases empty" avg=" .217" ab="69" h="15" bf="85" bb="11" so="22" double="5" triple="1" hr="1" hbp="5" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="18" go="12" bbpg=" 5.8" sopg="11.6"/>
+      <psituation context="bases loaded" avg=" .333" ab="6" h="2" bf="6" bb="0" so="3" double="1" triple="1" hr="0" hbp="0" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="1" go="0" bbpg=" 0.0" sopg="20.2"/>
+    </player>
+    <player name="Landon Waters">
+      <psituation context="vs left" avg=" .323" ab="31" h="10" bf="36" bb="4" so="8" double="1" triple="1" hr="3" hbp="1" wp="1" bk="0" sac="0" sf="0" gdp="2" fo="8" go="5" bbpg=" 4.3" sopg=" 8.6"/>
+      <psituation context="vs right" avg=" .182" ab="33" h="6" bf="42" bb="6" so="16" double="2" triple="1" hr="1" hbp="3" wp="3" bk="0" sac="0" sf="0" gdp="2" fo="5" go="6" bbpg=" 5.2" sopg="13.9"/>
+      <psituation context="vs leadoff" avg=" .357" ab="14" h="5" bf="15" bb="0" so="4" double="1" triple="0" hr="2" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="3" go="2" bbpg=" 0.0" sopg="12.0"/>
+      <psituation context="with runners" avg=" .241" ab="29" h="7" bf="35" bb="5" so="8" double="2" triple="1" hr="1" hbp="1" wp="4" bk="0" sac="0" sf="0" gdp="4" fo="8" go="6" bbpg=" 4.5" sopg=" 7.2"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .231" ab="13" h="3" bf="15" bb="2" so="6" double="2" triple="0" hr="0" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="4" go="0" bbpg=" 4.5" sopg="13.5"/>
+      <psituation context="rnrs in scoring pos" avg=" .222" ab="18" h="4" bf="24" bb="5" so="6" double="1" triple="0" hr="0" hbp="1" wp="3" bk="0" sac="0" sf="0" gdp="3" fo="3" go="5" bbpg=" 7.1" sopg=" 8.5"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .250" ab="8" h="2" bf="10" bb="2" so="4" double="1" triple="0" hr="0" hbp="0" wp="2" bk="0" sac="0" sf="0" gdp="0" fo="2" go="0" bbpg=" 7.7" sopg="15.4"/>
+      <psituation context="bases empty" avg=" .257" ab="35" h="9" bf="43" bb="5" so="16" double="1" triple="1" hr="3" hbp="3" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="5" go="5" bbpg=" 5.2" sopg="16.6"/>
+      <psituation context="bases loaded" avg=" .250" ab="4" h="1" bf="5" bb="0" so="0" double="0" triple="0" hr="0" hbp="1" wp="0" bk="0" sac="0" sf="0" gdp="2" fo="1" go="2" bbpg=" 0.0" sopg=" 0.0"/>
+    </player>
+    <player name="Team totals">
+      <psituation context="vs left" avg=" .256" ab="963" h="247" bf="1137" bb="117" so="296" double="49" triple="10" hr="33" hbp="42" wp="24" bk="5" sac="5" sf="9" gdp="16" fo="222" go="191" bbpg=" 4.3" sopg="10.8"/>
+      <psituation context="vs right" avg=" .250" ab="1178" h="294" bf="1379" bb="136" so="373" double="58" triple="4" hr="34" hbp="34" wp="30" bk="2" sac="20" sf="11" gdp="19" fo="249" go="262" bbpg=" 3.9" sopg="10.8"/>
+      <psituation context="vs leadoff" avg=" .245" ab="482" h="118" bf="559" bb="52" so="148" double="24" triple="2" hr="16" hbp="25" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="109" go="97" bbpg=" 4.0" sopg="11.3"/>
+      <psituation context="with runners" avg=" .259" ab="1026" h="266" bf="1227" bb="127" so="313" double="54" triple="8" hr="27" hbp="28" wp="54" bk="7" sac="25" sf="20" gdp="35" fo="232" go="229" bbpg=" 4.0" sopg=" 9.9"/>
+      <psituation context="w/runners &amp; 2-out" avg=" .230" ab="418" h="96" bf="482" bb="52" so="129" double="21" triple="6" hr="9" hbp="11" wp="23" bk="3" sac="0" sf="0" gdp="0" fo="98" go="86" bbpg=" 4.3" sopg="10.7"/>
+      <psituation context="rnrs in scoring pos" avg=" .245" ab="636" h="156" bf="777" bb="84" so="201" double="26" triple="3" hr="12" hbp="22" wp="29" bk="3" sac="15" sf="20" gdp="16" fo="149" go="146" bbpg=" 4.3" sopg="10.3"/>
+      <psituation context="scoring pos &amp; 2-out" avg=" .222" ab="293" h="65" bf="339" bb="37" so="96" double="11" triple="2" hr="5" hbp="9" wp="13" bk="2" sac="0" sf="0" gdp="0" fo="66" go="58" bbpg=" 4.4" sopg="11.3"/>
+      <psituation context="bases empty" avg=" .247" ab="1115" h="275" bf="1289" bb="126" so="356" double="53" triple="6" hr="40" hbp="48" wp="0" bk="0" sac="0" sf="0" gdp="0" fo="239" go="224" bbpg=" 4.2" sopg="11.8"/>
+      <psituation context="bases loaded" avg=" .247" ab="85" h="21" bf="102" bb="7" so="27" double="5" triple="2" hr="1" hbp="3" wp="1" bk="1" sac="1" sf="6" gdp="5" fo="21" go="20" bbpg=" 2.5" sopg=" 9.6"/>
+    </player>
+  </psituations>
+</bsseas>

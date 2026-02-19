@@ -1,5 +1,5 @@
 # Ignore reference folder at repository root
-/reference/
+#/reference/
 
 # Ignore all .log files
 *.log
