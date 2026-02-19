@@ -5,6 +5,7 @@
 # DISCLAIMER: This code was generated with AI assistance (Claude).
 # This software is provided "as is" without warranty of any kind. The author(s)
 # claim no ownership rights and grant no rights to users. Use at your own risk.
+# No liability for incorrect, incomplete, or corrupted data, nor for any data loss.
 # See LICENSE for full terms.
 #
 #

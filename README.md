@@ -2,7 +2,7 @@
 
 Converts TAS Baseball/Softball season statistics XML files into binary `.CAP` files.
 
-> **Disclaimer:** This software was created with AI code generation assistance. No ownership rights are claimed and no rights are granted. Use at your own risk. See [LICENSE](LICENSE) for full terms.
+> **Disclaimer:** This software was created with AI code generation assistance. No ownership rights are claimed and no rights are granted. Use at your own risk. The authors are not liable for any incorrect, incomplete, or corrupted data produced by this software, nor for any loss of data resulting from its use. See [LICENSE](LICENSE) for full terms.
 
 ## Requirements
 
