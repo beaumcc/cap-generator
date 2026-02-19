@@ -121,10 +121,6 @@ Byte 22 encodes the player's class year in the high bits and batting/throwing ha
 
 TAS XML provides `bats` and `throws` attributes, so the full byte is encoded. PrestoSports lacks these attributes, so the low bits default to 0x00 (R/R).
 
-#### Byte 23: Last Game Appeared
-
-Byte 23 stores the game number in which the player last appeared, not a pitcher/hitter type flag. For a team with 64 games played, a starter who played the final game has 0x40 (64), while a player whose last appearance was game 33 has 0x21 (33). The script approximates this as `team_gp` for all players since game-by-game logs are not available in the season XML.
-
 #### Position
 
 Player position (OF, INF, C, RHP, LHP, etc.) is **not** encoded in the CAP format. The only positional distinction is pitcher vs hitter, which determines which u16 stat slots are populated. Pitchers use the pitching stat indices (36-66, 86-95); hitters do not.
